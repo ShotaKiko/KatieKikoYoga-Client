@@ -1,0 +1,39 @@
+$primary-color: #E0E1E0;
+$secondary-color: #c6538c;
+$tertiary-color: #c6538c;
+
+.navContainer {
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary-color;
+
+    .logoDiv {
+        // border: 2px solid purple;
+        
+        .logoImage {
+            // border: 2px solid green;
+            max-width: 70%;
+            height: auto;
+        }
+    }
+
+    .linksDiv {
+        // border: 1px solid black;
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .socialMediasDiv {
+        // border: 1px solid blue;
+        width: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 5%;
+    }
+
+
+}

@@ -13,12 +13,28 @@ function NavBar() {
   return (
     <div className="navContainer">
       <div className="logoDiv">
-        <img src="KKYLogo.png" alt="Logo for KatieKikoYoga" />
+        <img
+          className="logoImage"
+          src="KKYLogo.png"
+          alt="Logo for KatieKikoYoga"
+        />
       </div>
       <div className="linksDiv">
-        <Link href="#">About</Link>
-        <Link href="#">Calender</Link>
-        <Link href="#">Contact</Link>
+        <Link href="#" color="inherit">
+          
+          About
+        
+        </Link>
+        <Link href="#" color="inherit">
+          
+          Calender
+        
+        </Link>
+        <Link href="#" color="inherit">
+          
+          Contact
+        
+        </Link>
       </div>
       <div className="socialMediasDiv">
         <InstagramIcon />
