@@ -1,12 +1,12 @@
 $primary-color: #E0E1E0;
-$secondary-color: #c6538c;
+$secondary-color: #D1CBC7;
 $tertiary-color: #c6538c;
 
 .navContainer {
     border: 2px solid grey;
     display: flex;
     justify-content: space-between;
-    background-color: $primary-color;
+    background-color: $secondary-color;
 
     .logoDiv {
         // border: 2px solid purple;

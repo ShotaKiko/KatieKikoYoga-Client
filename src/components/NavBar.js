@@ -8,6 +8,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 
 //Material UI Component Imports
 import Link from '@material-ui/core/Link';
+import Typography from '@material-ui/core/Typography';
 
 function NavBar() {
   return (
@@ -37,9 +38,17 @@ function NavBar() {
         </Link>
       </div>
       <div className="socialMediasDiv">
-        <InstagramIcon />
-        <FacebookIcon />
-        <YouTubeIcon />
+        <Typography>
+        <Link href="https://www.instagram.com/katiekikoyoga/" color='inherit' >
+          <InstagramIcon />
+        </Link>
+        <Link color='inherit' href='https://www.facebook.com/'>
+          <FacebookIcon />
+        </Link>
+        <Link color='inherit' href='https://www.youtube.com/'>
+          <YouTubeIcon />
+        </Link>
+        </Typography>
       </div>
     </div>
   );
