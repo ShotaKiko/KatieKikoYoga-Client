@@ -1,18 +1,34 @@
 .landingContainer {
     // border: 2px solid red;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 2vh;
 
-    .imageDiv{
-        // border: 2px solid green;
-        width: 80%;
+
+    .contentContainer {
+        // border: 2px solid orange;
+        width: 70%;
         margin: 0 auto;
-        
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        background-color: whitesmoke;
+
+        .contentTextDiv {
+            font-family: 'Roboto';
+            width: 30%;
+            margin: 20px auto;
+            text-align: center;
+        }
+    
+        .imageDiv{
+            // border: 2px solid green;
+            width: 50%;
+            
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
         }
     }
 }
