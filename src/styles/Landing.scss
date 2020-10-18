@@ -1,0 +1,18 @@
+.landingContainer {
+    // border: 2px solid red;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2vh;
+
+    .imageDiv{
+        // border: 2px solid green;
+        width: 80%;
+        margin: 0 auto;
+        
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    }
+}
