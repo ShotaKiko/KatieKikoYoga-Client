@@ -1,53 +1,40 @@
 import React from "react";
 import "../styles/Landing.scss";
 
-import Typography from '@material-ui/core/Typography';
+import Typography from "@material-ui/core/Typography";
 
 function LandingPage() {
   return (
     <div className="landingContainer">
-        <div className="contentContainer">
-            <div className="contentTextDiv">
-                <Typography variant="h2" gutterBottom>
-                    h2. Heading
-                </Typography>
-                <Typography variant="h3" gutterBottom>
-                    h3. Heading
-                </Typography>
-                <Typography variant="h4" gutterBottom>
-                    h4. Heading
-                </Typography>
-                <Typography variant="h5" gutterBottom>
-                    h5. Heading
-                </Typography>
-                <Typography variant="h6" gutterBottom>
-                    h6. Heading
-                </Typography>
-                <Typography variant="subtitle1" gutterBottom>
-                    subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-                </Typography>
-                <Typography variant="subtitle2" gutterBottom>
-                    subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-                </Typography>
-                <Typography variant="body1" gutterBottom>
-                    body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-                    unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-                    dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
-                </Typography>
-                <Typography variant="button" display="block" gutterBottom>
-                    button text
-                </Typography>
-                <Typography variant="caption" display="block" gutterBottom>
-                    caption text
-                </Typography>
-                <Typography variant="overline" display="block" gutterBottom>
-                    overline text
-                </Typography>
-            </div>
-            <div className="imageDiv">
-                <img src="./katiePortrait.jpg" alt="Katie Kiko" />
-            </div>
+      <div className="contentContainer">
+        <div className="contentTextDiv">
+          <Typography variant="h2" gutterBottom>
+            KatieKikoYoga
+          </Typography>
+          <Typography variant="h5" gutterBottom>
+            There has never been a better time to experience the wonderful
+            benefits of yoga in the comforts of your own home!
+          </Typography>
+          <Typography variant="body1" gutterBottom>
+            Katie is a yoga teacher who teaches a variety of online yoga
+            classes. I am a registered 223 hour yoga teacher with experience
+            teaching both kid's and adult's classes.I teach four different
+            styles of classes, beginners yoga, kids yoga, advanced and
+            restorative yoga.
+          </Typography>
+
+          <Typography variant="body1" gutterBottom>
+            My work as a former elementary teacher has lead me to be quite the
+            storyteller but my love for true healing of the mind body and soul
+            is what continues to drive and motivate my yoga teachings. I have
+            been doing yoga for the past 16 years as a way for myself to cope
+            with chronic pain and stress.
+          </Typography>
         </div>
+        <div className="imageDiv">
+          <img src="./katiePortrait.jpg" alt="Katie Kiko" />
+        </div>
+      </div>
     </div>
   );
 }
