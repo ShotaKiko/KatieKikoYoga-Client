@@ -16,15 +16,15 @@ function LandingPage() {
             benefits of yoga in the comforts of your own home!
           </Typography>
           <Typography variant="body1" gutterBottom>
-            Katie is a yoga teacher who teaches a variety of online yoga
+            I am yoga instructor who teaches a variety of online yoga
             classes. I am a registered 223 hour yoga teacher with experience
             teaching both kid's and adult's classes.I teach four different
-            styles of classes, beginners yoga, kids yoga, advanced and
-            restorative yoga.
+            styles of classes, <span>beginners yoga, kids yoga, advanced and
+            restorative yoga</span>.
           </Typography>
 
           <Typography variant="body1" gutterBottom>
-            My work as a former elementary teacher has lead me to be quite the
+            My work as a elementary teacher has lead me to be quite the
             storyteller but my love for true healing of the mind body and soul
             is what continues to drive and motivate my yoga teachings. I have
             been doing yoga for the past 16 years as a way for myself to cope
