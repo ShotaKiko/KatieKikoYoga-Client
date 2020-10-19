@@ -9,32 +9,28 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 //Material UI Component Imports
 import Link from '@material-ui/core/Link';
 
+//react-router
+import { NavLink } from 'react-router-dom'
+
 function NavBar() {
   return (
     <div className="navContainer">
       <div className="logoDiv">
-        <img
-          className="logoImage"
-          src="KKYLogo.png"
-          alt="Logo for KatieKikoYoga"
-        />
+        <NavLink exact to="/">
+          <img
+            className="logoImage"
+            src="KKYLogo.png"
+            alt="Logo for KatieKikoYoga"
+          />
+        </NavLink>
       </div>
       <div className="linksDiv">
-        <Link href="#" color="inherit">
-          
-          About
-        
-        </Link>
-        <Link href="#" color="inherit">
-          
+        <NavLink exact to="/">
+          Home
+        </NavLink>
+        <NavLink exact to="/calender/">
           Calender
-        
-        </Link>
-        <Link href="#" color="inherit">
-          
-          Contact
-        
-        </Link>
+        </NavLink>
       </div>
       <div className="socialMediasDiv">
         <Link href="https://www.instagram.com/katiekikoyoga/" color='inherit' >
