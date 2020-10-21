@@ -1,0 +1,20 @@
+.contactContainer {
+    // border: 2px solid red;
+    width: 70%;
+    margin: 0 auto;
+
+    .bannerImage {
+        margin-top: 2vh;
+
+        img {
+            // border: 2px solid orange;
+            max-width: 50%;
+            height: auto;
+            border-radius: 5px;
+        }
+    }
+
+    span {
+        font-weight: bold;
+    }
+}

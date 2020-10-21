@@ -19,7 +19,7 @@ function NavBar() {
         <NavLink exact to="/">
           <img
             className="logoImage"
-            src="KKYLogo.png"
+            src="../../KKYLogo.png"
             alt="Logo for KatieKikoYoga"
           />
         </NavLink>
@@ -31,15 +31,18 @@ function NavBar() {
         <NavLink exact to="/calender/">
           Calender
         </NavLink>
+        <NavLink exact to="/contact/">
+          Contact
+        </NavLink>
       </div>
       <div className="socialMediasDiv">
-        <Link href="https://www.instagram.com/katiekikoyoga/" color='inherit' >
+        <Link href="https://www.instagram.com/katiekikoyoga/" color="inherit">
           <InstagramIcon />
         </Link>
-        <Link color='inherit' href='https://www.facebook.com/'>
+        <Link color="inherit" href="https://www.facebook.com/">
           <FacebookIcon />
         </Link>
-        <Link color='inherit' href='https://www.youtube.com/'>
+        <Link color="inherit" href="https://www.youtube.com/">
           <YouTubeIcon />
         </Link>
       </div>

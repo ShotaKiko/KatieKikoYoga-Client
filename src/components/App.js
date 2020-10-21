@@ -1,19 +1,13 @@
 import React from "react";
 import "../styles/App.scss";
-import ReactDOM from "react-dom";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 
 //Component Imports
-import LandingPage from "./LandingPage";
+import LandingPage from "./LandingPage.js";
 import NavBar from "./NavBar.js";
-import CalenderPage from "./CalenderPage";
-
+import CalenderPage from "./CalenderPage.js";
+import Contact from "./Contact.js";
 
 function App() {
   return (
@@ -21,7 +15,8 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/" component={LandingPage} />
-        <Route path="/calender/" component={CalenderPage} />
+        <Route path="/calender" component={CalenderPage} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </div>
   );

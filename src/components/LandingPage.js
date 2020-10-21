@@ -16,11 +16,13 @@ function LandingPage() {
             benefits of yoga in the comforts of your own home!
           </Typography>
           <Typography variant="body1" gutterBottom>
-            I am yoga instructor who teaches a variety of online yoga
-            classes. I am a registered 223 hour yoga teacher with experience
-            teaching both kid's and adult's classes.I teach four different
-            styles of classes, <span>beginners yoga, kids yoga, advanced and
-            restorative yoga</span>.
+            I am yoga instructor who teaches a variety of online yoga classes. I
+            am a registered 223 hour yoga teacher with experience teaching both
+            kid's and adult's classes.I teach four different styles of classes,{" "}
+            <span>
+              beginners yoga, kids yoga, advanced and restorative yoga
+            </span>
+            .
           </Typography>
 
           <Typography variant="body1" gutterBottom>
@@ -32,7 +34,7 @@ function LandingPage() {
           </Typography>
         </div>
         <div className="imageDiv">
-          <img src="./katiePortrait.jpg" alt="Katie Kiko" />
+          <img src="katiePortrait.jpg" alt="Katie Kiko" />
         </div>
       </div>
     </div>
