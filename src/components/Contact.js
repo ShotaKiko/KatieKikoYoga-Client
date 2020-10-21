@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {
       margin: theme.spacing(1),
-      width: "40vw",
+      width: "30vw",
       display: "flex",
     },
   },
@@ -49,73 +49,75 @@ const useStyles = makeStyles((theme) => ({
 function Contact() {
   const classes = useStyles();
   return (
-    <div className="contactContainer">
+    <section className="contactContainer">
       <div className="bannerImage">
         <img src="../../KerbyBanner.jpg" alt="Contact Katie Kiko" />
       </div>
-      <div className="detailsDiv">
-        <Typography variant="h2" gutterBottom>
-          Contact
-        </Typography>
-        <Typography variant="body1" gutterBottom>
-          <span>General:</span>
-          <Typography variant="body1"> katiekikoyoga@gmail.com</Typography>
-          <span>Private Lessons:</span>
-          <Typography variant="body1"> katiekikoyoga@gmail.com</Typography>
-        </Typography>
+      <div className="contactInfo">
+        <div className="detailsDiv">
+          <Typography variant="h2" gutterBottom>
+            Contact
+          </Typography>
+          <Typography variant="body1" gutterBottom>
+            <span>General:</span>
+            <Typography variant="body1"> katiekikoyoga@gmail.com</Typography>
+            <span>Private Lessons:</span>
+            <Typography variant="body1"> katiekikoyoga@gmail.com</Typography>
+          </Typography>
+        </div>
+
+        <div className="form">
+          <form className={classes.root}>
+            <ThemeProvider theme={fieldTheme}>
+              <input type="hidden" name="form-name" value="contact" />
+              <TextField
+                className={classes.field}
+                id="filled-basic"
+                label="Your Name"
+                variant="filled"
+                defaultValue=""
+                color="secondary"
+                backgroundColor="main"
+                name="name"
+              />
+
+              <TextField
+                className={classes.field}
+                id="filled-basic"
+                label="Your Email"
+                variant="filled"
+                defaultValue=""
+                color="secondary"
+                name="email"
+              />
+
+              <TextField
+                className={classes.field}
+                id="filled-multiline-static"
+                label=" Your Message"
+                multiline
+                rows={9}
+                rowsMax={16}
+                defaultValue=""
+                variant="filled"
+                color="secondary"
+                name="message"
+              />
+            </ThemeProvider>
+            <div className="submitContainer">
+              <Button
+                className={classes.button}
+                variant="contained"
+                color="primary"
+                type="submit"
+              >
+                Submit
+              </Button>
+            </div>
+          </form>
+        </div>
       </div>
-
-      <div className="form">
-        <form className={classes.root}>
-          <ThemeProvider theme={fieldTheme}>
-            <input type="hidden" name="form-name" value="contact" />
-            <TextField
-              className={classes.field}
-              id="filled-basic"
-              label="Your Name"
-              variant="filled"
-              defaultValue=""
-              color="secondary"
-              backgroundColor="main"
-              name="name"
-            />
-
-            <TextField
-              className={classes.field}
-              id="filled-basic"
-              label="Your Email"
-              variant="filled"
-              defaultValue=""
-              color="secondary"
-              name="email"
-            />
-
-            <TextField
-              className={classes.field}
-              id="filled-multiline-static"
-              label=" Your Message"
-              multiline
-              rows={9}
-              rowsMax={16}
-              defaultValue=""
-              variant="filled"
-              color="secondary"
-              name="message"
-            />
-          </ThemeProvider>
-          <div className="footerButtonContainer">
-            <Button
-              className={classes.button}
-              variant="contained"
-              color="primary"
-              type="submit"
-            >
-              Submit
-            </Button>
-          </div>
-        </form>
-      </div>
-    </div>
+    </section>
   );
 }
 

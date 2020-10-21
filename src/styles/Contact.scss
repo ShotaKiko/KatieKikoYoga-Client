@@ -14,7 +14,27 @@
         }
     }
 
-    span {
-        font-weight: bold;
+    
+    .contactInfo {
+        // border: 2px solid orange;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+        span {
+            font-weight: bold;
+        }
+
+        .detailsDiv {
+            margin-top: 20px;
+        }
+
+        .submitContainer {
+            // border: 2px solid palevioletred;
+            display: flex;
+            justify-content: flex-end;
+        }
     }
 }
