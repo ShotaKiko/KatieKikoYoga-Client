@@ -7,6 +7,7 @@ import { Switch, Route } from "react-router-dom";
 import LandingPage from "./LandingPage.js";
 import NavBar from "./NavBar.js";
 import CalenderPage from "./CalenderPage.js";
+import Classes from "./Classes.js";
 import Contact from "./Contact.js";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route path="/calender" component={CalenderPage} />
+        <Route path="/classes" component={Classes} />
         <Route path="/contact" component={Contact} />
       </Switch>
     </div>

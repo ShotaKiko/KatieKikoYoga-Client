@@ -31,6 +31,9 @@ function NavBar() {
         <NavLink exact to="/calender/">
           Calender
         </NavLink>
+        <NavLink exact to="/classes/">
+          Classes
+        </NavLink>
         <NavLink exact to="/contact/">
           Contact
         </NavLink>
