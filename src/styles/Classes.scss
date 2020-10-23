@@ -1,0 +1,39 @@
+.classesContainer {
+    // border: 2px solid red;
+    width: 70%;
+    margin: 0 auto;
+
+    img {
+        // border: 1px solid pink;
+        width: 30%;
+        border: 1px solid #cccaca;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .firstRow {
+        // border: 2px solid blue;
+        margin-top: 10vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .secondRow {
+        // border: 2px solid blue;
+        margin-top: 22vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .thirdRow {
+        // border: 2px solid blue;
+        margin-top: 22vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .fourthRow {
+        // border: 2px solid blue;
+        margin-top: 22vh;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5vh;
+    }
+}

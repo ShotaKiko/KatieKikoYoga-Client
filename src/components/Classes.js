@@ -1,4 +1,6 @@
 import React from "react";
+import "../styles/Classes.scss";
+
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -47,6 +49,10 @@ function Classes() {
           </CardActions>
         </Card>
 
+        <img src="../../KKYLogo.png" alt="Placeholder" />
+      </div>
+      <div className="secondRow">
+        <img src="../../KKYLogo.png" alt="Placeholder" />
         <Card className={classes.root}>
           <CardActionArea>
             <CardContent>
@@ -72,7 +78,8 @@ function Classes() {
             </Button>
           </CardActions>
         </Card>
-
+      </div>
+      <div className="thirdRow">
         <Card className={classes.root}>
           <CardActionArea>
             <CardContent>
@@ -98,7 +105,10 @@ function Classes() {
             </Button>
           </CardActions>
         </Card>
-
+        <img src="../../KKYLogo.png" alt="Placeholder" />
+      </div>
+      <div className="fourthRow">
+        <img src="../../KKYLogo.png" alt="Placeholder" />
         <Card className={classes.root}>
           <CardActionArea>
             <CardContent>
