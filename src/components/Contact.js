@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
   },
   field: {
     "& > *": {
-      color: "#e4a35f",
+      color: "black",
       zIndex: "0",
     },
   },
