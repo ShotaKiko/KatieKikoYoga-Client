@@ -9,6 +9,11 @@ import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
+import plankPose from "../courseImages/plankPose.jpg";
+import boatPose from "../courseImages/boatPose.jpg";
+import shoulderFourPose from "../courseImages/shoulderFourPose.jpg";
+import sphinxPose from "../courseImages/sphinxPose.jpg";
+
 const useStyles = makeStyles({
   root: {
     maxWidth: 500,
@@ -48,11 +53,11 @@ function Classes() {
             </Button>
           </CardActions>
         </Card>
-
-        <img src="../../KKYLogo.png" alt="Placeholder" />
+        <img src={plankPose} alt="Plank Pose for beginners yoga" />
       </div>
+
       <div className="secondRow">
-        <img src="../../KKYLogo.png" alt="Placeholder" />
+        <img src={shoulderFourPose} alt="Shoulder stretch pose for kids yoga" />
         <Card className={classes.root}>
           <CardActionArea>
             <CardContent>
@@ -79,6 +84,7 @@ function Classes() {
           </CardActions>
         </Card>
       </div>
+
       <div className="thirdRow">
         <Card className={classes.root}>
           <CardActionArea>
@@ -105,10 +111,11 @@ function Classes() {
             </Button>
           </CardActions>
         </Card>
-        <img src="../../KKYLogo.png" alt="Placeholder" />
+        <img src={boatPose} alt="boat pose for advanced yoga" />
       </div>
+
       <div className="fourthRow">
-        <img src="../../KKYLogo.png" alt="Placeholder" />
+        <img src={sphinxPose} alt="sphinx pose for restorative yoga" />
         <Card className={classes.root}>
           <CardActionArea>
             <CardContent>
