@@ -5,10 +5,35 @@
 
     img {
         // border: 1px solid pink;
-        width: 30%;
+        width: 50%;
         border: 1px solid #cccaca;
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .classDescription {
+        // border: 2px solid red;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .classDescription2 {
+        // border: 2px solid red;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+    }
+
+    .optionsButtons {
+        // border: 2px solid green;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
     }
 
     .firstRow {
@@ -16,6 +41,8 @@
         margin-top: 10vh;
         display: flex;
         justify-content: space-around;
+        border-bottom: 1px solid #cccaca;
+        padding-bottom: 100px;
     }
     .secondRow {
         // border: 2px solid blue;
