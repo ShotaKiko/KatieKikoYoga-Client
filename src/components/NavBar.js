@@ -25,16 +25,16 @@ function NavBar() {
         </NavLink>
       </div>
       <div className="linksDiv">
-        <NavLink exact to="/">
+        <NavLink exact to="/" className="navStyles">
           Home
         </NavLink>
-        <NavLink exact to="/calender/">
+        <NavLink exact to="/calender/" className="navStyles">
           Calender
         </NavLink>
-        <NavLink exact to="/classes/">
+        <NavLink exact to="/classes/" className="navStyles">
           Classes
         </NavLink>
-        <NavLink exact to="/contact/">
+        <NavLink exact to="/contact/" className="navStyles">
           Contact
         </NavLink>
       </div>
