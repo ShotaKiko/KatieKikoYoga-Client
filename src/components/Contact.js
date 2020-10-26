@@ -67,7 +67,7 @@ function Contact() {
         </div>
 
         <div className="form">
-          <form className={classes.root}>
+          <form className={classes.root} noValidate autoComplete="off" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
             <ThemeProvider theme={fieldTheme}>
               <input type="hidden" name="form-name" value="contact" />
               <TextField
