@@ -43,7 +43,7 @@ function Classes() {
         <img src={shoulderFourPose} alt="Shoulder stretch pose for kids yoga" />
             <div className="classDescription2">
               <Typography gutterBottom variant="h3" component="h2">
-                Children's Yoga
+                Kid's Yoga
               </Typography>
               <Typography gutterBottom variant="h5" color="textSecondary" component="h2">
                 Every Sunday afternoon at 4pm CST
