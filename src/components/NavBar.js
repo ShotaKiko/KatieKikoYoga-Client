@@ -45,7 +45,7 @@ function NavBar() {
         <Link color="inherit" href="https://www.facebook.com/groups/369431201045267/?ref=share">
           <FacebookIcon />
         </Link>
-        <Link color="inherit" href="https://www.youtube.com/">
+        <Link color="inherit" href="https://www.youtube.com/channel/UCUMdCeRxgOouAB3uES3AZqA/featured">
           <YouTubeIcon />
         </Link>
       </div>

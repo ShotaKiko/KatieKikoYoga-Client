@@ -33,14 +33,10 @@ function CalenderPage() {
     { title: "Advanced Yoga", date: "2020-11-14" },
     { title: "Advanced Yoga Class", start: '2020-11-14T09:00:00' },
     //Restorative Yoga
-    { title: "Restorative Yoga", date: "2020-10-29" },
-    { title: "Restorative Yoga Class", start: '2020-10-29T19:00:00' },
     { title: "Restorative Yoga", date: "2020-11-05" },
     { title: "Restorative Yoga Class", start: '2020-11-05T19:00:00' },
     { title: "Restorative Yoga", date: "2020-11-12" },
     { title: "Restorative Yoga Class", start: '2020-11-12T19:00:00' },
-    { title: "Restorative Yoga", date: "2020-11-19" },
-    { title: "Restorative Yoga Class", start: '2020-11-19T19:00:00' },
   ];
     return (
       <div className="calenderContainer">
