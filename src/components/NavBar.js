@@ -42,7 +42,7 @@ function NavBar() {
         <Link href="https://www.instagram.com/katiekikoyoga/" color="inherit">
           <InstagramIcon />
         </Link>
-        <Link color="inherit" href="https://www.facebook.com/">
+        <Link color="inherit" href="https://www.facebook.com/groups/369431201045267/?ref=share">
           <FacebookIcon />
         </Link>
         <Link color="inherit" href="https://www.youtube.com/">

@@ -58,8 +58,9 @@ function CalenderPage() {
             omitZeroMinute: true,
             meridiem: 'narrow'
           }}
+          eventBackgroundColor="#26823e"
+          eventBorderColor="#26823e"
           
-          //add styling TODO
         />
       </div>
     );
