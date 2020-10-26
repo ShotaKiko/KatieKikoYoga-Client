@@ -20,6 +20,9 @@ function Classes() {
               </Typography>
               <Typography gutterBottom variant="h5" color="textSecondary" component="h2">
                 Every Wednesday night at 7pm CST
+              <Typography variant="body2"  component="p">
+                Please sign up before 6pm CST
+              </Typography>
               </Typography>
               <Typography variant="body1"  component="p">
                 In Beginner Yoga class we will focus on the fundamentals of yoga
@@ -47,6 +50,9 @@ function Classes() {
               </Typography>
               <Typography gutterBottom variant="h5" color="textSecondary" component="h2">
                 Every Sunday afternoon at 4pm CST
+                <Typography variant="body2"  component="p">
+                  Please sign up before 3pm CST
+                </Typography>
               </Typography>
               <Typography variant="body1" component="p">
                 In Child’s Yoga class we focus on the <span>mindFUNness</span>.
@@ -72,6 +78,9 @@ function Classes() {
                 </Typography>
                 <Typography gutterBottom variant="h5" color="textSecondary" component="h2">
                   Every Saturday morning at 9am CST
+                  <Typography variant="body2"  component="p">
+                    Please sign up before 8am CST
+                  </Typography>
                 </Typography>
                 <Typography variant="body1" component="p">
                   In Advanced Yoga we will explore more advanced asanas (poses)
@@ -99,6 +108,9 @@ function Classes() {
               </Typography>
               <Typography gutterBottom variant="h5" color="textSecondary" component="h2">
                 Every Thursday night at 7pm CST
+                <Typography variant="body2"  component="p">
+                  Please sign up before 6pm CST
+                </Typography>
               </Typography>
               <Typography variant="body1" component="p">
                 In Restorative Yoga we will focus on restoring and rejuvenating
