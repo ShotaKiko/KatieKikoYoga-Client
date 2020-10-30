@@ -9,7 +9,7 @@ function LandingPage() {
       <div className="contentContainer">
         <div className="contentTextDiv">
           <Typography variant="h5" gutterBottom>
-            <Typography variant="h2" gutterBottom>
+            <Typography variant="h3" gutterBottom>
               KatieKikoYoga
             </Typography>
             There has never been a better time to experience the wonderful
