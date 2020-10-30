@@ -79,6 +79,7 @@ function Contact() {
                 color="secondary"
                 backgroundColor="main"
                 name="name"
+                type="text"
               />
 
               <TextField
@@ -89,6 +90,7 @@ function Contact() {
                 defaultValue=""
                 color="secondary"
                 name="email"
+                type="text"
               />
 
               <TextField
@@ -102,6 +104,7 @@ function Contact() {
                 variant="filled"
                 color="secondary"
                 name="message"
+                type="text"
               />
             </ThemeProvider>
             <div className="submitContainer">

@@ -69,3 +69,27 @@
         }
     }
 }
+
+//Mobile Styling
+@media screen and (max-width: 600px) {
+    .landingContainer {
+        //border: 2px solid red;
+
+        .contentContainer {
+            //border: 1px solid green;
+            flex-direction: column-reverse;
+            width: 95%;
+
+            .contentTextDiv {
+                //border: 1px solid blue;
+                width: 100%;
+            }
+    
+            .imageDiv {
+                //border: 1px solid purple;
+                width: 100%;
+                height: fit-content;
+            }
+        }
+    }
+}

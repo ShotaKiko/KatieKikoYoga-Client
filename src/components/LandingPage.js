@@ -8,10 +8,10 @@ function LandingPage() {
     <div className="landingContainer">
       <div className="contentContainer">
         <div className="contentTextDiv">
-          <Typography variant="h2" gutterBottom>
-            KatieKikoYoga
-          </Typography>
           <Typography variant="h5" gutterBottom>
+            <Typography variant="h2" gutterBottom>
+              KatieKikoYoga
+            </Typography>
             There has never been a better time to experience the wonderful
             benefits of yoga in the comforts of your own home!
           </Typography>
