@@ -9,6 +9,7 @@ import NavBar from "./NavBar.js";
 import CalenderPage from "./CalenderPage.js";
 import Classes from "./Classes.js";
 import Contact from "./Contact.js";
+import Footer from "./Footer.js";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/classes" component={Classes} />
         <Route path="/contact" component={Contact} />
       </Switch>
+      <Footer />
     </div>
   );
 }
