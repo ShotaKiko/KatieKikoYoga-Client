@@ -42,7 +42,7 @@
     }
 
     .classDescription {
-        // border: 2px solid red;
+        //border: 2px solid red;
         width: 40%;
         display: flex;
         flex-direction: column;
@@ -96,5 +96,66 @@
         display: flex;
         justify-content: space-around;
         margin-bottom: 5vh;
+    }
+}
+
+//Mobile Styling
+@media screen and (max-width: 600px) {
+    .classesContainer {
+        width: 90%;
+
+        .firstRow {
+            flex-direction: column-reverse;
+
+            .classDescription {
+                width: 100%;
+                margin-top: 2vh;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .secondRow {
+            flex-direction: column;
+
+            .classDescription2 {
+                width: 100%;
+                margin-top: 2vh;
+                text-align: center;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .thirdRow {
+            flex-direction: column-reverse;
+
+            .classDescription {
+                width: 100%;
+                margin-top: 2vh;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .fourthRow {
+            flex-direction: column;
+
+            .classDescription2 {
+                width: 100%;
+                margin-top: 2vh;
+                text-align: center;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
     }
 }
