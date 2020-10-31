@@ -27,6 +27,11 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(1),
       width: "30vw",
       display: "flex",
+      [theme.breakpoints.between('xs', 'sm')]: {
+        fontSize:".4rem",
+        width:"80vw",
+        margin:"1vh 0px"
+      },
     },
   },
   field: {

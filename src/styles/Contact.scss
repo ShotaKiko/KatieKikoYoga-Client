@@ -78,9 +78,26 @@
     select:-webkit-autofill,
     select:-webkit-autofill:hover,
     select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #b0bec5;
+    -webkit-text-fill-color: black;
     -webkit-box-shadow: 0 0 0px 1000px #052738 inset;
     box-shadow: none;
     transition: background-color 5000s ease-in-out 0s;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contactContainer {
+        // border: 1px solid blue;
+        width: 95%;
+
+        .bannerImage {
+            // border: 1px solid red;
+            margin-top: 4vh;
+            
+            img {
+                // border: 1px solid green;
+                max-width: 100%;
+            }
+        }
     }
 }
