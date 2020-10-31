@@ -34,3 +34,11 @@
     100% {opacity:1;}
     }
 }
+
+@media screen and (max-width:600px) {
+    .calenderContainer {
+        width: 100%;
+        height: fit-content;
+        height: 60vh;
+    }
+}

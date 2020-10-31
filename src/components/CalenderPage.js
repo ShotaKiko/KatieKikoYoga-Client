@@ -5,6 +5,17 @@ import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 
+const windowWidthSize = window.innerWidth
+function determineDisplay(windowWidthSize) {
+  if (windowWidthSize > 600) {
+    return "dayGridMonth"
+  } else {
+    return "dayGridDay"
+  }
+}
+
+const initialView = determineDisplay(windowWidthSize)
+
 function CalenderPage() {
   const year2020NovEvents = [
     //Beginners Yoga
@@ -42,7 +53,7 @@ function CalenderPage() {
       <div className="calenderContainer">
         <FullCalendar
           plugins={[dayGridPlugin, timeGridPlugin]}
-          initialView="dayGridMonth"
+          initialView={initialView}
           events={year2020NovEvents}          
           // events={[
           //   { title: "Restorative Yoga class", date: "2020-10-19"},
