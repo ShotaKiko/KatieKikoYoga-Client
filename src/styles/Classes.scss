@@ -106,6 +106,8 @@
 
         .firstRow {
             flex-direction: column-reverse;
+            margin-top: 4vh;
+            padding-bottom: 5vh;
 
             .classDescription {
                 width: 100%;
@@ -119,11 +121,14 @@
 
         .secondRow {
             flex-direction: column;
+            margin-top: 4vh;
+            padding-bottom: 5vh;
+
 
             .classDescription2 {
                 width: 100%;
                 margin-top: 2vh;
-                text-align: center;
+                text-align: left;
             }
 
             img {
@@ -133,6 +138,9 @@
 
         .thirdRow {
             flex-direction: column-reverse;
+            margin-top: 4vh;
+            padding-bottom: 5vh;
+
 
             .classDescription {
                 width: 100%;
@@ -146,11 +154,14 @@
 
         .fourthRow {
             flex-direction: column;
+            margin-top: 4vh;
+            padding-bottom: 5vh;
+
 
             .classDescription2 {
                 width: 100%;
                 margin-top: 2vh;
-                text-align: center;
+                text-align: left;
             }
 
             img {
