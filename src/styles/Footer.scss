@@ -1,0 +1,22 @@
+.footerContainer {
+    //border: 2px solid red;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border-top: 1px solid #cccaca;
+    margin-top: 5vh;
+
+    img {
+        max-width: 40%;
+        height: auto;
+    }
+
+    p {
+        font-family: "Roboto";
+        font-size: .9rem;
+    }
+}

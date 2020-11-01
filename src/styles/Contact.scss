@@ -34,7 +34,10 @@
     }
 
     .bannerImage {
+        // border: 1px solid teal;
         margin-top: 2vh;
+        display: flex;
+        justify-content: center;
 
         img {
             // border: 2px solid orange;
