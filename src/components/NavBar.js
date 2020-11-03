@@ -8,48 +8,67 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 
 //Material UI Component Imports
 import Link from '@material-ui/core/Link';
+import MenuIcon from '@material-ui/icons/Menu';
 
 //react-router
 import { NavLink } from 'react-router-dom'
 
 function NavBar() {
   return (
-    <div className="navContainer">
-      <div className="logoDiv">
-        <NavLink exact to="/">
-          <img
-            className="logoImage"
-            src="../../KKYLogo.png"
-            alt="Logo for KatieKikoYoga"
-          />
-        </NavLink>
+    <section>
+      <div className="mobileNavContainer">
+        <div className="logoDiv">
+            <NavLink exact to="/">
+              <img
+                className="logoImage"
+                src="../../KKYLogo.png"
+                alt="Logo for KatieKikoYoga"
+              />
+            </NavLink>
+          </div>
+          <div className="hamMenu">
+            <MenuIcon fontSize={'large'} />
+            Menu
+          </div>
       </div>
-      <div className="linksDiv">
-        <NavLink exact to="/" className="navStyles">
-          Home
-        </NavLink>
-        <NavLink exact to="/calender/" className="navStyles">
-          Calender
-        </NavLink>
-        <NavLink exact to="/classes/" className="navStyles">
-          Classes
-        </NavLink>
-        <NavLink exact to="/contact/" className="navStyles">
-          Contact
-        </NavLink>
+
+      <div className="navContainer">
+        <div className="logoDiv">
+          <NavLink exact to="/">
+            <img
+              className="logoImage"
+              src="../../KKYLogo.png"
+              alt="Logo for KatieKikoYoga"
+            />
+          </NavLink>
+        </div>
+        <div className="linksDiv">
+          <NavLink exact to="/" className="navStyles">
+            Home
+          </NavLink>
+          <NavLink exact to="/calender/" className="navStyles">
+            Calender
+          </NavLink>
+          <NavLink exact to="/classes/" className="navStyles">
+            Classes
+          </NavLink>
+          <NavLink exact to="/contact/" className="navStyles">
+            Contact
+          </NavLink>
+        </div>
+        <div className="socialMediasDiv">
+          <Link href="https://www.instagram.com/katiekikoyoga/" color="inherit">
+            <InstagramIcon />
+          </Link>
+          <Link color="inherit" href="https://www.facebook.com/groups/369431201045267/?ref=share">
+            <FacebookIcon />
+          </Link>
+          <Link color="inherit" href="https://www.youtube.com/channel/UCUMdCeRxgOouAB3uES3AZqA/featured">
+            <YouTubeIcon />
+          </Link>
+        </div>
       </div>
-      <div className="socialMediasDiv">
-        <Link href="https://www.instagram.com/katiekikoyoga/" color="inherit">
-          <InstagramIcon />
-        </Link>
-        <Link color="inherit" href="https://www.facebook.com/groups/369431201045267/?ref=share">
-          <FacebookIcon />
-        </Link>
-        <Link color="inherit" href="https://www.youtube.com/channel/UCUMdCeRxgOouAB3uES3AZqA/featured">
-          <YouTubeIcon />
-        </Link>
-      </div>
-    </div>
+    </section>
   );
 }
 
