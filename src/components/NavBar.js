@@ -15,21 +15,37 @@ import { NavLink } from 'react-router-dom'
 
 function NavBar() {
   return (
-    <section>
+    <section className="nav">
       <div className="mobileNavContainer">
-        <div className="logoDiv">
-            <NavLink exact to="/">
-              <img
-                className="logoImage"
-                src="../../KKYLogo.png"
-                alt="Logo for KatieKikoYoga"
-              />
-            </NavLink>
-          </div>
-          <div className="hamMenu">
-            <MenuIcon fontSize={'large'} />
-            Menu
-          </div>
+        <div className="staticMenu" >
+          <div className="logoDiv">
+              <NavLink exact to="/">
+                <img
+                  className="logoImage"
+                  src="../../KKYLogo.png"
+                  alt="Logo for KatieKikoYoga"
+                />
+              </NavLink>
+            </div>
+            <div className="hamMenu">
+              <MenuIcon fontSize={'large'} />
+              Menu
+            </div>
+        </div>
+        <div className="columnOfLinks">
+          <NavLink exact to="/" className="navStyles">
+            Home
+          </NavLink>
+          <NavLink exact to="/calender/" className="navStyles">
+            Calender
+          </NavLink>
+          <NavLink exact to="/classes/" className="navStyles">
+            Classes
+          </NavLink>
+          <NavLink exact to="/contact/" className="navStyles">
+            Contact
+          </NavLink>
+        </div>
       </div>
 
       <div className="navContainer">
