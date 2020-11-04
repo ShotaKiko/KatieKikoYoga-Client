@@ -5,25 +5,44 @@ import "../styles/NavBar.scss";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import FacebookIcon from "@material-ui/icons/Facebook";
+import MenuIcon from '@material-ui/icons/Menu';
+import CloseIcon from '@material-ui/icons/Close';
 
 //Material UI Component Imports
 import Link from '@material-ui/core/Link';
-import MenuIcon from '@material-ui/icons/Menu';
 
 //react-router
 import { NavLink } from 'react-router-dom'
 
+//Slide animation
+import {SlideDown} from 'react-slidedown'
+import 'react-slidedown/lib/slidedown.css'
+
 function NavBar() {
   const [open, setOpen] = useState(false);
+
   const openStyle = {
-    transform:"translateY(0%)",
-    border:"2px solid red"
+    display:"initial"
   }
 
   const closedStyle = {
     display:"none",
-    border:"2px solid blue"
   }
+
+  const children = <div className="columnOfLinks" >
+    <NavLink exact to="/" className="navStyles">
+      Home
+    </NavLink>
+    <NavLink exact to="/calender/" className="navStyles">
+      Calender
+    </NavLink>
+    <NavLink exact to="/classes/" className="navStyles">
+      Classes
+    </NavLink>
+    <NavLink exact to="/contact/" className="navStyles">
+      Contact
+    </NavLink>
+  </div>
 
   return (
     <section className="nav">
@@ -39,24 +58,14 @@ function NavBar() {
               </NavLink>
             </div>
             <div className="hamMenu">
-              <MenuIcon fontSize={'large'} onClick={() => setOpen(!open)} />
+              <MenuIcon fontSize={'large'} onClick={() => setOpen(!open)} style={open ? closedStyle : openStyle}/>
+              <CloseIcon fontSize={'large'} onClick={() => setOpen(!open)} style={open ? openStyle : closedStyle} />
               Menu
             </div>
         </div>
-        <div className="columnOfLinks" style={open ? openStyle : closedStyle }>
-          <NavLink exact to="/" className="navStyles">
-            Home
-          </NavLink>
-          <NavLink exact to="/calender/" className="navStyles">
-            Calender
-          </NavLink>
-          <NavLink exact to="/classes/" className="navStyles">
-            Classes
-          </NavLink>
-          <NavLink exact to="/contact/" className="navStyles">
-            Contact
-          </NavLink>
-        </div>
+        <SlideDown className={'my-dropdown-slidedown'}>
+          {open ? children : null} 
+        </SlideDown>
       </div>
 
       <div className="navContainer">
