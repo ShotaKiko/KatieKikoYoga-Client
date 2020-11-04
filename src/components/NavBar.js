@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/NavBar.scss";
 
 //Material UI Icon Imports
@@ -14,6 +14,17 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { NavLink } from 'react-router-dom'
 
 function NavBar() {
+  const [open, setOpen] = useState(false);
+  const openStyle = {
+    transform:"translateY(0%)",
+    border:"2px solid red"
+  }
+
+  const closedStyle = {
+    display:"none",
+    border:"2px solid blue"
+  }
+
   return (
     <section className="nav">
       <div className="mobileNavContainer">
@@ -28,11 +39,11 @@ function NavBar() {
               </NavLink>
             </div>
             <div className="hamMenu">
-              <MenuIcon fontSize={'large'} />
+              <MenuIcon fontSize={'large'} onClick={() => setOpen(!open)} />
               Menu
             </div>
         </div>
-        <div className="columnOfLinks">
+        <div className="columnOfLinks" style={open ? openStyle : closedStyle }>
           <NavLink exact to="/" className="navStyles">
             Home
           </NavLink>
