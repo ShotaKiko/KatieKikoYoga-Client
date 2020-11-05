@@ -28,6 +28,9 @@ function Classes() {
                 In Beginner Yoga class we will focus on the fundamentals of yoga
                 alignment and how to safely and effectively journey with our
                 minds and bodies into yoga poses.
+                
+                This class is for people brand new to yoga or 
+                for those who may be returning back to yoga.
               </Typography>
             
             <div className="optionsButtons">
@@ -58,6 +61,8 @@ function Classes() {
                 In Child’s Yoga class we focus on the <span>mindFUNness</span>.
                 We’ll focus not only on calming strategies for our minds but
                 story based exercises that many yoga fun for any age!
+
+                Time flies by while we exercise our minds and muscles!
               </Typography>
             
               <div className="optionsButtons">
@@ -86,6 +91,9 @@ function Classes() {
                   In Advanced Yoga we will explore more advanced asanas (poses)
                   through a combination of hatha, vinyasa and alignment based
                   practice.
+
+                  Once you’ve got down the basics, anyone is welcome to try an 
+                  Advanced Yoga Class!
                 </Typography>
               
                 <div className="optionsButtons">
@@ -115,6 +123,9 @@ function Classes() {
               <Typography variant="body1" component="p">
                 In Restorative Yoga we will focus on restoring and rejuvenating
                 our bodies in a slower paced practice.
+
+                This style of yoga encourages physical and mental relaxation and 
+                moves at a slower pace than my Beginner Class.
               </Typography>
               
               <div className="optionsButtons">

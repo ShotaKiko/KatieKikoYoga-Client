@@ -20,7 +20,7 @@ function LandingPage() {
             am a registered 223 hour yoga teacher with experience teaching both
             kid's and adult's classes.I teach four different styles of classes,{" "}
             <span>
-              beginners yoga, kids yoga, advanced and restorative yoga
+              Beginner's Yoga, Kid's Yoga, Advanced and Restorative Yoga
             </span>
             .
           </Typography>
