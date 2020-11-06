@@ -8,6 +8,7 @@ import plankPose from "../courseImages/plankPose.jpg";
 import boatPose from "../courseImages/boatPose.jpg";
 import shoulderFourPose from "../courseImages/shoulderFourPose.jpg";
 import sphinxPose from "../courseImages/sphinxPose.jpg";
+import seatedPose from "../courseImages/seatedPose.jpg"
 
 
 function Classes() {
@@ -137,6 +138,36 @@ function Classes() {
                 </Button>
               </div>
             </div>
+      </div>
+
+      <div className="fifthRow">
+        <div className="classDescription">
+          <Typography gutterBottom variant="h3" component="h2">
+            Private Yoga Class
+          </Typography>
+          <Typography gutterBottom variant="h5" color="textSecondary" component="h2">
+            Dates, times and yoga flows are customizable
+            <Typography variant="body2"  component="p">
+              Please reach out to me via email!
+            </Typography>
+          </Typography>
+          <Typography variant="body1" component="p">
+          Private Yoga Classes are customizable to the students needs. They can be 
+          individual or group classes (birthday parties, girls nights, etc.). 
+          The style of yoga they could be taught in is either Hatha Yoga, Vinyasa Yoga, 
+          Alignment Yoga, Restorative Yoga or Kids Classes.
+          </Typography>
+          
+          <div className="optionsButtons">
+            <Button size="small" color="primary">
+              <a href="https://paypal.me/katiekikoyoga?locale.x=en_US">Sign Up</a>     
+            </Button>
+            <Button size="small" color="primary">
+              Learn More
+            </Button>
+          </div>
+        </div>
+        <img src={seatedPose} alt="Seated pose" />
       </div>
     </div>
   );
