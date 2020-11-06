@@ -35,7 +35,7 @@ function Classes() {
             
             <div className="optionsButtons">
               <Button size="small" color="primary">
-                Sign Up
+                <a href="https://paypal.me/katiekikoyoga?locale.x=en_US">Sign Up</a>  
               </Button>
               <Button size="small" color="primary">
                 Learn More
@@ -67,7 +67,7 @@ function Classes() {
             
               <div className="optionsButtons">
                 <Button size="small" color="primary">
-                  Sign Up
+                  <a href="https://paypal.me/katiekikoyoga?locale.x=en_US">Sign Up</a>
                 </Button>
                 <Button size="small" color="primary">
                   Learn More
@@ -98,7 +98,7 @@ function Classes() {
               
                 <div className="optionsButtons">
                   <Button size="small" color="primary">
-                    Sign Up
+                    <a href="https://paypal.me/katiekikoyoga?locale.x=en_US">Sign Up</a>   
                   </Button>
                   <Button size="small" color="primary">
                     Learn More
@@ -130,7 +130,7 @@ function Classes() {
               
               <div className="optionsButtons">
                 <Button size="small" color="primary">
-                  Sign Up
+                  <a href="https://paypal.me/katiekikoyoga?locale.x=en_US">Sign Up</a>     
                 </Button>
                 <Button size="small" color="primary">
                   Learn More
