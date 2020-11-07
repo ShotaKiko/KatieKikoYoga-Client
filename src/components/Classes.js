@@ -46,9 +46,9 @@ function Classes() {
                 Sign Up
               </a>
             </Button>
-            <Button size="small" color="primary">
+            {/* <Button size="small" color="primary">
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </div>
 
@@ -104,9 +104,9 @@ function Classes() {
                 Sign Up
               </a>
             </Button>
-            <Button size="small" color="primary">
+            {/* <Button size="small" color="primary">
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>
@@ -140,9 +140,9 @@ function Classes() {
                 Sign Up
               </a>
             </Button>
-            <Button size="small" color="primary">
+            {/* <Button size="small" color="primary">
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </div>
         <div className="imageDiv">
@@ -196,9 +196,9 @@ function Classes() {
                 Sign Up
               </a>
             </Button>
-            <Button size="small" color="primary">
+            {/* <Button size="small" color="primary">
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>
@@ -233,9 +233,9 @@ function Classes() {
                 Sign Up
               </a>
             </Button>
-            <Button size="small" color="primary">
+            {/* <Button size="small" color="primary">
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </div>
         <div className="imageDiv">

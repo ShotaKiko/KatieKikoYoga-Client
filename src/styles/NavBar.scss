@@ -131,6 +131,13 @@ $border-color: #cccaca;
                 }
             }
 
+            .socialMediasDiv {
+                //background-color: red;
+                width: 22%;
+                display: flex;
+                justify-content: space-evenly;
+            }
+
             .columnOfLinks {
                // border: 2px solid purple;
                 min-height: 33vh;

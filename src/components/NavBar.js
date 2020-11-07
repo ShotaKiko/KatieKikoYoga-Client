@@ -3,7 +3,7 @@ import "../styles/NavBar.scss";
 
 //Material UI Icon Imports
 import InstagramIcon from "@material-ui/icons/Instagram";
-import YouTubeIcon from "@material-ui/icons/YouTube";
+//import YouTubeIcon from "@material-ui/icons/YouTube";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
@@ -43,6 +43,19 @@ function NavBar() {
       <NavLink exact to="/contact/" className="navStyles">
         Contact
       </NavLink>
+
+      <div className="socialMediasDiv">
+          <Link href="https://www.instagram.com/katiekikoyoga/" color="inherit">
+            <InstagramIcon />
+          </Link>
+          <Link
+            color="inherit"
+            href="https://www.facebook.com/groups/369431201045267/?ref=share"
+          >
+            <FacebookIcon />
+          </Link>
+
+        </div>
     </div>
   );
 
@@ -112,12 +125,12 @@ function NavBar() {
           >
             <FacebookIcon />
           </Link>
-          <Link
+          {/* <Link
             color="inherit"
             href="https://www.youtube.com/channel/UCUMdCeRxgOouAB3uES3AZqA/featured"
           >
             <YouTubeIcon />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
