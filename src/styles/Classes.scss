@@ -253,3 +253,117 @@
         }
     }
 }
+
+//Tablet Styling
+@media screen and (max-width: 1225px) {
+    .classesContainer {
+        width: 80%;
+        margin-top: 7vh;
+        .firstRow {
+            flex-direction: column-reverse;
+            margin-top: 4vh;
+            padding-bottom: 5vh;
+
+            .classDescription {
+                width: 100%;
+                margin-top: 2vh;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            .imageDiv {
+                //border: 3px solid dodgerblue;
+                width: 100%;
+            }
+        }
+
+        .secondRow {
+            flex-direction: column;
+            margin-top: 4vh;
+            padding-bottom: 5vh;
+
+
+            .classDescription2 {
+                width: 100%;
+                margin-top: 2vh;
+                text-align: left;
+            }
+            
+
+            .imageDiv {
+                //border: 3px solid dodgerblue;
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .thirdRow {
+            flex-direction: column-reverse;
+            margin-top: 4vh;
+            padding-bottom: 5vh;
+
+
+            .classDescription {
+                width: 100%;
+                margin-top: 2vh;
+            }
+
+            .imageDiv {
+                //border: 3px solid dodgerblue;
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .fourthRow {
+            flex-direction: column;
+            margin-top: 4vh;
+            padding-bottom: 5vh;
+
+
+            .classDescription2 {
+                width: 100%;
+                margin-top: 2vh;
+                text-align: left;
+            }
+
+            .imageDiv {
+                //border: 3px solid dodgerblue;
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .fifthRow {
+            flex-direction: column-reverse;
+            margin-top: 4vh;
+            padding-bottom: 5vh;
+            margin-bottom: 5vh;
+
+            .classDescription {
+                width: 100%;
+                margin-top: 2vh;
+            }
+
+            .imageDiv {
+                //border: 3px solid dodgerblue;
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

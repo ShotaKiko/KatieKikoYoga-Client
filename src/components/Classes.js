@@ -206,7 +206,7 @@ function Classes() {
       <div className="fifthRow">
         <div className="classDescription">
           <Typography gutterBottom variant="h3" component="h2">
-            Private Yoga Classes
+            Private Yoga
           </Typography>
           <Typography
             gutterBottom
