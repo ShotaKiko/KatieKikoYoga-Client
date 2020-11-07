@@ -29,12 +29,17 @@ const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {
       margin: theme.spacing(1),
-      width: "30vw",
+      width: "40vw",
       display: "flex",
       [theme.breakpoints.between("xs", "sm")]: {
         fontSize: ".4rem",
         width: "80vw",
         margin: "1vh 0px",
+      },
+      [theme.breakpoints.between("sm", "md")]: {
+        fontSize: ".4rem",
+        width: "60vw",
+        margin: ".5vh 0px",
       },
     },
   },

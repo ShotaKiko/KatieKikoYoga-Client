@@ -89,6 +89,7 @@
     }
 }
 
+//Mobile Responsiveness
 @media screen and (max-width:600px) {
     .contactContainer {
         // border: 1px solid blue;
@@ -99,6 +100,21 @@
             //border: 1px solid red;
             margin-top: 4vh;
             width: 100%;
+        }
+    }
+}
+
+//Tablet Responsiveness
+@media screen and (max-width:1024px) {
+    .contactContainer {
+        // border: 1px solid blue;
+        width: 90%;
+        margin-top: 1vh;
+
+        .bannerImage {
+            //border: 1px solid red;
+            margin-top: 8vh;
+            width: 80%;
         }
     }
 }
