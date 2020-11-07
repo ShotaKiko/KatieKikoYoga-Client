@@ -15,12 +15,14 @@ $border-color: #cccaca;
         background-color: white;
         box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
         //sticky nav
-        position: sticky;
+        position: fixed;
         top: 0;
         z-index: 1000;
+        width: 100%;
     
         .logoDiv {
             // border: 2px solid purple;
+            margin-left: 1vw;
             
             .logoImage {
                 // border: 2px solid green;

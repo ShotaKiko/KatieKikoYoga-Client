@@ -2,7 +2,7 @@
     // border: 2px solid red;
     width: 100%;
     margin: 0 auto;
-    margin-top: 2vh;
+    margin-top: 10vh;
     //fade in animation
     animation: fadeIn ease 1s;
     -webkit-animation: fadeIn ease 1s;
@@ -71,7 +71,7 @@
 }
 
 //Mobile Styling
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .landingContainer {
         //border: 2px solid red;
         margin: 0 auto;

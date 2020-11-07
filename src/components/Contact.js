@@ -56,7 +56,7 @@ function Contact() {
   return (
     <section className="contactContainer">
       <div className="bannerImage">
-        <img src="../../KerbyBanner.jpg" alt="Contact Katie Kiko" />
+        <img src="../../KatieBanner.jpg" alt="Contact Katie Kiko" />
       </div>
       <div className="contactInfo">
         <div className="detailsDiv">
