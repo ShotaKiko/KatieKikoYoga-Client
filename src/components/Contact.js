@@ -82,7 +82,7 @@ function Contact() {
         </div>
 
         <div className="form">
-          <form className={classes.root}>
+          <form className={classes.root} name="contact" method="post">
             <input type="hidden" name="form-name" value="contact" />
             <ThemeProvider theme={fieldTheme}>
               <TextField
