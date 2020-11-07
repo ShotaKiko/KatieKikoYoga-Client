@@ -7,7 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import plankPose from "../courseImages/optPlank.jpg";
 import advancedPose from "../courseImages/optAdvanced.jpg";
 import shoulderFourPose from "../courseImages/shoulderFour.jpg";
-import sphinxPose from "../courseImages/optSphinx.jpg";
+import restorativePose from "../courseImages/optRestorative.jpg";
 import seatedPose from "../courseImages/optCrissCross.jpg";
 
 //Lazy Loading
@@ -55,7 +55,7 @@ function Classes() {
         <div className="imageDiv">
           <LazyLoadImage
             alt="Plank Pose for beginners yoga"
-            src={plankPose}
+            src={seatedPose}
             effect="blur"
             height={"auto"}
             width={"100%"}
@@ -161,7 +161,7 @@ function Classes() {
         <div className="imageDiv">
           <LazyLoadImage
             alt="sphinx pose for restorative yoga"
-            src={sphinxPose}
+            src={restorativePose}
             effect="blur"
             height={"auto"}
             width={"100%"}
@@ -222,7 +222,7 @@ function Classes() {
           <Typography variant="body1" component="p">
             Private Yoga Classes are customizable to the student's needs. They
             can be individual or group classes (birthday parties, girls nights,
-            etc.). The style of yoga they could be taught in includes Hatha
+            etc.). The styles of yoga taught could include Hatha
             Yoga, Vinyasa Yoga, Alignment Yoga, Restorative Yoga or Kids
             Classes.
           </Typography>
@@ -241,7 +241,7 @@ function Classes() {
         <div className="imageDiv">
           <LazyLoadImage
             alt="Seated Pose"
-            src={seatedPose}
+            src={plankPose}
             effect="blur"
             height={"auto"}
             width={"100%"}
