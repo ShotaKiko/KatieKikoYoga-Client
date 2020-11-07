@@ -4,11 +4,11 @@ import "../styles/Classes.scss";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import plankPose from "../courseImages/plankPose.jpg";
-import boatPose from "../courseImages/boatPose.jpg";
-import shoulderFourPose from "../courseImages/shoulderFourPose.jpg";
-import sphinxPose from "../courseImages/sphinxPose.jpg";
-import seatedPose from "../courseImages/seatedPose.jpg"
+import plankPose from "../courseImages/plank.jpg";
+import advancedPose from "../courseImages/advanced.jpg";
+import shoulderFourPose from "../courseImages/shoulderFour.jpg";
+import sphinxPose from "../courseImages/sphinx.jpg";
+import seatedPose from "../courseImages/crissCross.jpg"
 
 
 function Classes() {
@@ -106,7 +106,7 @@ function Classes() {
                   </Button>
                 </div>
               </div>
-        <img src={boatPose} alt="boat pose for advanced yoga" />
+        <img src={advancedPose} alt="boat pose for advanced yoga" />
       </div>
 
       <div className="fourthRow">

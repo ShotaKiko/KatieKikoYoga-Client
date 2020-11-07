@@ -34,7 +34,7 @@ function LandingPage() {
           </Typography>
         </div>
         <div className="imageDiv">
-          <img src="katiePortrait.jpg" alt="Katie Kiko" />
+          <img src="gracefulTree.jpg" alt="Katie Kiko" />
         </div>
       </div>
     </div>
