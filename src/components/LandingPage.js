@@ -35,7 +35,7 @@ function LandingPage() {
             My work as a elementary teacher has lead me to become quite the
             storyteller but my love for true healing of the mind, body and soul
             is what continues to drive and motivate my yoga teachings. I have
-            been doing yoga for the past 16 years as a way for myself maintain <span>balance </span>
+            been doing yoga for the past 16 years as a way for myself to maintain <span>balance </span>
             and meditate upon my <span>inner peace</span>.
             {/* to cope with chronic pain and stress. */}
           </Typography>
