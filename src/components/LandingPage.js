@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/Landing.scss";
 
 import Typography from "@material-ui/core/Typography";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/black-and-white.css";
 
 function LandingPage() {
   return (
@@ -34,7 +36,12 @@ function LandingPage() {
           </Typography>
         </div>
         <div className="imageDiv">
-          <img src="gracefulTree.jpg" alt="Katie Kiko" />
+          <LazyLoadImage
+            alt="test"
+            src="gracefulTree.jpg"
+            effect="black-and-white"
+          />
+          {/* <img src="gracefulTree.jpg" alt="Katie Kiko" /> */}
         </div>
       </div>
     </div>

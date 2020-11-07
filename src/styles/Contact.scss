@@ -35,15 +35,15 @@
     }
 
     .bannerImage {
-        // border: 1px solid teal;
+        //border: 1px solid teal;
+        width: 60%;
+        margin: 0 auto;
         margin-top: 2vh;
         display: flex;
         justify-content: center;
 
         img {
-            // border: 2px solid orange;
-            max-width: 50%;
-            height: auto;
+            //border: 2px solid orange;
             border-radius: 5px;
         }
     }

@@ -1,6 +1,10 @@
 import React from "react";
 import "../styles/Contact.scss";
 
+//Lazy Loading
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 //Material UI imports
 import Typography from "@material-ui/core/Typography";
 import TextField from "@material-ui/core/TextField";
@@ -27,10 +31,10 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(1),
       width: "30vw",
       display: "flex",
-      [theme.breakpoints.between('xs', 'sm')]: {
-        fontSize:".4rem",
-        width:"80vw",
-        margin:"1vh 0px"
+      [theme.breakpoints.between("xs", "sm")]: {
+        fontSize: ".4rem",
+        width: "80vw",
+        margin: "1vh 0px",
       },
     },
   },
@@ -56,7 +60,13 @@ function Contact() {
   return (
     <section className="contactContainer">
       <div className="bannerImage">
-        <img src="../../katieContact.jpg" alt="Contact Katie Kiko" />
+        <LazyLoadImage
+          alt="Contact Katie"
+          src="../../optKatieContact.jpg"
+          effect="blur"
+          width={"100%"}
+          height={"auto"}
+        />
       </div>
       <div className="contactInfo">
         <div className="detailsDiv">
@@ -72,7 +82,15 @@ function Contact() {
         </div>
 
         <div className="form">
-          <form className={classes.root} noValidate autoComplete="off" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <form
+            className={classes.root}
+            noValidate
+            autoComplete="off"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
             <ThemeProvider theme={fieldTheme}>
               <input type="hidden" name="form-name" value="contact" />
               <TextField
