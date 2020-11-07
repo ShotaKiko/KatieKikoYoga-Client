@@ -43,7 +43,7 @@ function LandingPage() {
         <div className="imageDiv">
           <LazyLoadImage
             alt="test"
-            src="gracefulTree.jpg"
+            src="optGracefulTree.jpg"
             effect="black-and-white"
           />
         </div>

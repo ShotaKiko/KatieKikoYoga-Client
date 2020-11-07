@@ -87,13 +87,15 @@
 
             .contentTextDiv {
                 //border: 1px solid blue;
-                width: 100%;
+                width: 80%;
             }
     
             .imageDiv {
                 //border: 1px solid purple;
                 width: 100%;
                 height: fit-content;
+                display: flex;
+                justify-content: center;
             }
         }
     }
