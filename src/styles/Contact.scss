@@ -96,15 +96,9 @@
         margin-top: 1vh;
 
         .bannerImage {
-            // border: 1px solid red;
+            //border: 1px solid red;
             margin-top: 4vh;
-            
-            img {
-                //border: 1px solid green;
-                max-width: 90%;
-                height: auto;
-                max-height: 300px;
-            }
+            width: 100%;
         }
     }
 }
