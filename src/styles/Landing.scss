@@ -56,6 +56,18 @@
                 font-weight: bold;
             }
         }
+
+        .logoDiv {
+            // border: 2px solid purple;
+            width: 100%;
+
+            img {
+                //border: 2px solid green;
+                max-width: 200px;
+                max-height: 200px;
+
+            }
+        }
     
         .imageDiv{
             // border: 2px solid green;
@@ -105,7 +117,7 @@
 @media screen and (max-width:900px) {
     .landingContainer {
         // border: 2px solid red;
-
+        
         .contentContainer {
             // border: 1px solid green;
             width: 90%;

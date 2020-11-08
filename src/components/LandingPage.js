@@ -4,16 +4,24 @@ import "../styles/Landing.scss";
 import Typography from "@material-ui/core/Typography";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/black-and-white.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function LandingPage() {
   return (
     <div className="landingContainer">
       <div className="contentContainer">
         <div className="contentTextDiv">
+        <div className="logoDiv">
+          <LazyLoadImage
+            alt="test"
+            src="KKYLogo.png"
+            effect="blur"
+          />
+        </div>
           <Typography variant="h5" gutterBottom>
-            <Typography variant="h3" gutterBottom>
+            {/* <Typography variant="h3" gutterBottom>
               KatieKikoYoga
-            </Typography>
+            </Typography> */}
             There has never been a better time to experience the wonderful
             benefits of yoga in the comforts of your own home!
           </Typography>
