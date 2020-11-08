@@ -4,10 +4,10 @@ import "../styles/Classes.scss";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import plankPose from "../courseImages/optPlank.jpg";
+import heartOpenerPose from "../courseImages/optHeartOpener.jpg";
 import advancedPose from "../courseImages/optAdvanced.jpg";
-import shoulderFourPose from "../courseImages/shoulderFour.jpg";
-import restorativePose from "../courseImages/optRestorative.jpg";
+import sideAngle from "../courseImages/optExtendSideAngle.jpg";
+import waterPose from "../courseImages/optRestorative.jpg";
 import seatedPose from "../courseImages/optCrissCross.jpg";
 
 //Lazy Loading
@@ -54,8 +54,8 @@ function Classes() {
 
         <div className="imageDiv">
           <LazyLoadImage
-            alt="Plank Pose for beginners yoga"
-            src={seatedPose}
+            alt="Side Angle Pose for beginners yoga"
+            src={sideAngle}
             effect="blur"
             height={"auto"}
             width={"100%"}
@@ -68,8 +68,8 @@ function Classes() {
       <div className="secondRow">
         <div className="imageDiv">
           <LazyLoadImage
-            alt="Shoulder stretch pose for kids yoga"
-            src={shoulderFourPose}
+            alt="Seated Criss Cross pose for kids yoga"
+            src={seatedPose}
             effect="blur"
             height={"auto"}
             width={"100%"}
@@ -160,14 +160,13 @@ function Classes() {
       <div className="fourthRow">
         <div className="imageDiv">
           <LazyLoadImage
-            alt="sphinx pose for restorative yoga"
-            src={restorativePose}
+            alt="heart opener pose for restorative yoga"
+            src={heartOpenerPose}
             effect="blur"
             height={"auto"}
             width={"100%"}
           />
         </div>
-        {/* <img src={sphinxPose} alt="sphinx pose for restorative yoga" /> */}
         <div className="classDescription2">
           <Typography gutterBottom variant="h3" component="h2">
             Restorative Yoga
@@ -241,7 +240,7 @@ function Classes() {
         <div className="imageDiv">
           <LazyLoadImage
             alt="Seated Pose"
-            src={plankPose}
+            src={waterPose}
             effect="blur"
             height={"auto"}
             width={"100%"}
