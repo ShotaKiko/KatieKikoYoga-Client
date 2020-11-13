@@ -9,7 +9,7 @@ function Footer() {
             src="../../KKYLogo.png"
             alt="Logo for KatieKikoYoga"
           />
-          <p>Copyright &#169; 2020 KatieKikoYoga</p>
+          <p>Copyright &#169; 2020 KatieKikoYoga • Photography courtesy of Dee Evans</p>
         </div>
     )
 }
