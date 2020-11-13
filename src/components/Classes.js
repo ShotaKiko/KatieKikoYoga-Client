@@ -18,9 +18,18 @@ function Classes() {
   return (
     <div className="classesContainer">
       <div className="firstRow">
-        <div className="classDescription">
+      <div className="imageDiv">
+          <LazyLoadImage
+            alt="heart opener pose for restorative yoga"
+            src={heartOpenerPose}
+            effect="blur"
+            height={"auto"}
+            width={"100%"}
+          />
+        </div>
+        <div className="classDescription2">
           <Typography gutterBottom variant="h3" component="h2">
-            Beginner's Yoga
+            Restorative Yoga
           </Typography>
           <Typography
             gutterBottom
@@ -28,16 +37,16 @@ function Classes() {
             color="textSecondary"
             component="h2"
           >
-            Every Wednesday night at 7pm CST
+            Every Thursday night at 7pm CST
             <Typography variant="body2" component="p">
               Please sign up before 6pm CST
             </Typography>
           </Typography>
           <Typography variant="body1" component="p">
-            In Beginner Yoga class we will focus on the fundamentals of yoga
-            alignment and how to safely and effectively journey with our minds
-            and bodies into yoga poses. This class is for people brand new to
-            yoga or for those who may be returning back to yoga.
+            In Restorative Yoga we will focus on restoring and rejuvenating our
+            bodies in a slower paced practice. This style of yoga encourages
+            physical and mental relaxation and moves at a slower pace than my
+            Beginner Class.
           </Typography>
 
           <div className="optionsButtons">
@@ -52,15 +61,9 @@ function Classes() {
           </div>
         </div>
 
-        <div className="imageDiv">
-          <LazyLoadImage
-            alt="Side Angle Pose for beginners yoga"
-            src={sideAngle}
-            effect="blur"
-            height={"auto"}
-            width={"100%"}
-          />
-        </div>
+
+
+        
 
         {/* <img src={plankPose} alt="Plank Pose for beginners yoga" /> */}
       </div>
@@ -158,18 +161,9 @@ function Classes() {
       </div>
 
       <div className="fourthRow">
-        <div className="imageDiv">
-          <LazyLoadImage
-            alt="heart opener pose for restorative yoga"
-            src={heartOpenerPose}
-            effect="blur"
-            height={"auto"}
-            width={"100%"}
-          />
-        </div>
-        <div className="classDescription2">
+      <div className="classDescription">
           <Typography gutterBottom variant="h3" component="h2">
-            Restorative Yoga
+            Beginner's Yoga
           </Typography>
           <Typography
             gutterBottom
@@ -177,16 +171,16 @@ function Classes() {
             color="textSecondary"
             component="h2"
           >
-            Every Thursday night at 7pm CST
+            Every Wednesday night at 7pm CST
             <Typography variant="body2" component="p">
               Please sign up before 6pm CST
             </Typography>
           </Typography>
           <Typography variant="body1" component="p">
-            In Restorative Yoga we will focus on restoring and rejuvenating our
-            bodies in a slower paced practice. This style of yoga encourages
-            physical and mental relaxation and moves at a slower pace than my
-            Beginner Class.
+            In Beginner Yoga class we will focus on the fundamentals of yoga
+            alignment and how to safely and effectively journey with our minds
+            and bodies into yoga poses. This class is for people brand new to
+            yoga or for those who may be returning back to yoga.
           </Typography>
 
           <div className="optionsButtons">
@@ -199,6 +193,16 @@ function Classes() {
               Learn More
             </Button> */}
           </div>
+        </div>
+
+        <div className="imageDiv">
+          <LazyLoadImage
+            alt="Side Angle Pose for beginners yoga"
+            src={sideAngle}
+            effect="blur"
+            height={"auto"}
+            width={"100%"}
+          />
         </div>
       </div>
 
