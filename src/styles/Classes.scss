@@ -147,7 +147,7 @@
         width: 80%;
         margin-top: 7vh;
         .firstRow {
-            flex-direction: column-reverse;
+            flex-direction: column;
             margin-top: 4vh;
             padding-bottom: 5vh;
 
@@ -167,7 +167,7 @@
         }
 
         .secondRow {
-            flex-direction: column;
+            flex-direction: column-reverse;
             margin-top: 4vh;
             padding-bottom: 5vh;
             
@@ -260,7 +260,7 @@
             width: 90%;
     
             .firstRow {
-                flex-direction: column-reverse;
+                flex-direction: column;
                 margin-top: 2vh;
                 padding-bottom: 5vh;
     
@@ -280,7 +280,7 @@
             }
     
             .secondRow {
-                flex-direction: column;
+                flex-direction: column-reverse;
                 margin-top: 4vh;
                 padding-bottom: 5vh;
     

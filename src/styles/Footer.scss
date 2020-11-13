@@ -11,12 +11,36 @@
     margin-top: 5vh;
 
     img {
-        max-width: 40%;
+        max-width: 35%;
         height: auto;
     }
 
     p {
         font-family: "Roboto";
         font-size: .9rem;
+    }
+
+    .footerText {
+        display: flex;
+        align-items: center;
+    
+        span {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footerContainer {
+        width: 100%;
+
+        .footerText {
+            flex-direction: column;
+
+            span {
+                display: none;
+            }
+        }
     }
 }

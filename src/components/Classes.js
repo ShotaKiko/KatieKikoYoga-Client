@@ -27,7 +27,7 @@ function Classes() {
             width={"100%"}
           />
         </div>
-        <div className="classDescription2">
+        <div className="classDescription">
           <Typography gutterBottom variant="h3" component="h2">
             Restorative Yoga
           </Typography>
@@ -69,15 +69,6 @@ function Classes() {
       </div>
 
       <div className="secondRow">
-        <div className="imageDiv">
-          <LazyLoadImage
-            alt="Seated Criss Cross pose for kids yoga"
-            src={seatedPose}
-            effect="blur"
-            height={"auto"}
-            width={"100%"}
-          />
-        </div>
         {/* <img src={shoulderFourPose} alt="Shoulder stretch pose for kids yoga" /> */}
         <div className="classDescription2">
           <Typography gutterBottom variant="h3" component="h2">
@@ -112,6 +103,15 @@ function Classes() {
             </Button> */}
           </div>
         </div>
+            <div className="imageDiv">
+              <LazyLoadImage
+                alt="Seated Criss Cross pose for kids yoga"
+                src={seatedPose}
+                effect="blur"
+                height={"auto"}
+                width={"100%"}
+              />
+            </div>
       </div>
 
       <div className="thirdRow">
@@ -161,7 +161,16 @@ function Classes() {
       </div>
 
       <div className="fourthRow">
-      <div className="classDescription">
+      <div className="imageDiv">
+        <LazyLoadImage
+          alt="Side Angle Pose for beginners yoga"
+          src={sideAngle}
+          effect="blur"
+          height={"auto"}
+          width={"100%"}
+        />
+      </div>
+      <div className="classDescription2">
           <Typography gutterBottom variant="h3" component="h2">
             Beginner's Yoga
           </Typography>
@@ -195,15 +204,6 @@ function Classes() {
           </div>
         </div>
 
-        <div className="imageDiv">
-          <LazyLoadImage
-            alt="Side Angle Pose for beginners yoga"
-            src={sideAngle}
-            effect="blur"
-            height={"auto"}
-            width={"100%"}
-          />
-        </div>
       </div>
 
       <div className="fifthRow">
