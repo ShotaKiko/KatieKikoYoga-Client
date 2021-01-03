@@ -5,20 +5,16 @@ import Typography from "@material-ui/core/Typography";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/black-and-white.css";
 import "react-lazy-load-image-component/src/effects/blur.css";
-// import CallToAction from "./CallToAction";
+import CallToAction from "./CallToAction";
 
 function LandingPage() {
   return (
     <div className="landingContainer">
       <div className="contentContainer">
         <div className="contentTextDiv">
-        <div className="logoDiv">
-          <LazyLoadImage
-            alt="test"
-            src="KKYLogo.png"
-            effect="blur"
-          />
-        </div>
+          <div className="logoDiv">
+            <LazyLoadImage alt="test" src="KKYLogo.png" effect="blur" />
+          </div>
           <Typography variant="h5" gutterBottom>
             {/* <Typography variant="h3" gutterBottom>
               KatieKikoYoga
@@ -29,8 +25,9 @@ function LandingPage() {
           <Typography variant="body1" gutterBottom>
             I am a yoga instructor who teaches a variety of online yoga styles
             and flows for beginners to more advanced yogis! I am a registered
-            223 hour yoga teacher with experience teaching both kid's and
-            adult's classes. <br></br> Currently I teach four different styles of classes:<br></br>
+            243 hour yoga teacher with experience teaching both kid's and
+            adult's classes. <br></br> Currently I teach four different styles
+            of classes:<br></br>
           </Typography>
 
           <Typography variant="body1" gutterBottom>
@@ -44,9 +41,13 @@ function LandingPage() {
             My work as a elementary teacher has lead me to become quite the
             storyteller but my love for true healing of the mind, body and soul
             is what continues to drive and motivate my yoga teachings. I have
-            been doing yoga for the past 16 years as a way for myself to maintain <span>balance </span>
+            been doing yoga for the past 16 years as a way for myself to
+            maintain <span>balance </span>
             and meditate upon my <span>inner peace</span>.
             {/* to cope with chronic pain and stress. */}
+          </Typography>
+          <Typography>
+            <CallToAction />
           </Typography>
         </div>
         <div className="imageDiv">
@@ -57,7 +58,6 @@ function LandingPage() {
           />
         </div>
       </div>
-      {/* <CallToAction /> */}
     </div>
   );
 }
