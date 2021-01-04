@@ -1,121 +1,139 @@
 .contactContainer {
-    // border: 2px solid blue;
-    width: 70%;
+  // border: 2px solid blue;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10vh;
+  //fade in animation
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .bannerImage {
+    //border: 1px solid teal;
+    width: 60%;
     margin: 0 auto;
-    margin-top: 10vh;
-    //fade in animation
-    animation: fadeIn ease 1s;
-    -webkit-animation: fadeIn ease 1s;
-    -moz-animation: fadeIn ease 1s;
-    -o-animation: fadeIn ease 1s;
-    -ms-animation: fadeIn ease 1s;
-    @keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-        
-    @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+
+    img {
+      //border: 2px solid orange;
+      border-radius: 5px;
     }
-    
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  }
+
+  .contactInfo {
+    // border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    span {
+      font-weight: bold;
     }
 
-    .bannerImage {
-        //border: 1px solid teal;
-        width: 60%;
-        margin: 0 auto;
-        margin-top: 2vh;
-        display: flex;
-        justify-content: center;
-
-        img {
-            //border: 2px solid orange;
-            border-radius: 5px;
-        }
+    .detailsDiv {
+      margin-top: 20px;
+      margin-bottom: 4vh;
     }
 
-    
-    .contactInfo {
-        // border: 2px solid orange;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2vh;
-        span {
-            font-weight: bold;
-        }
-
-        .detailsDiv {
-            margin-top: 20px;
-            margin-bottom: 4vh;
-        }
-
-        .submitContainer {
-            // border: 2px solid palevioletred;
-            display: flex;
-            justify-content: flex-end;
-        }
+    .submitContainer {
+      // border: 2px solid palevioletred;
+      display: flex;
+      justify-content: flex-end;
     }
+  }
 
-    /* Change autocomplete styles in WebKit */
-    input:-webkit-autofill,
-    input:-webkit-autofill:hover,
-    input:-webkit-autofill:focus,
-    textarea:-webkit-autofill,
-    textarea:-webkit-autofill:hover,
-    textarea:-webkit-autofill:focus,
-    select:-webkit-autofill,
-    select:-webkit-autofill:hover,
-    select:-webkit-autofill:focus {
+  /* Change autocomplete styles in WebKit */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
     -webkit-text-fill-color: black;
     -webkit-box-shadow: 0 0 0px 1000px #052738 inset;
     box-shadow: none;
     transition: background-color 5000s ease-in-out 0s;
-    }
+  }
 }
 
-
 //Tablet Responsiveness
-@media screen and (max-width:1024px) {
-    .contactContainer {
-        // border: 1px solid blue;
-        width: 90%;
-        margin-top: 1vh;
-        
-        .bannerImage {
-            //border: 1px solid red;
-            margin-top: 8vh;
-            width: 80%;
-        }
+@media screen and (max-width: 1024px) {
+  .contactContainer {
+    // border: 1px solid blue;
+    width: 90%;
+    margin-top: 1vh;
+
+    .bannerImage {
+      //border: 1px solid red;
+      margin-top: 8vh;
+      width: 80%;
     }
+  }
 }
 
 //Mobile Responsiveness
-@media screen and (max-width:600px) {
-    .contactContainer {
-        // border: 1px solid blue;
-        width: 95%;
-        margin-top: 1vh;
+@media screen and (max-width: 600px) {
+  .contactContainer {
+    // border: 1px solid blue;
+    width: 95%;
+    margin-top: 1vh;
 
-        .bannerImage {
-            //border: 1px solid red;
-            margin-top: 4vh;
-            width: 100%;
-        }
+    .bannerImage {
+      //border: 1px solid red;
+      margin-top: 4vh;
+      width: 100%;
     }
+  }
 }

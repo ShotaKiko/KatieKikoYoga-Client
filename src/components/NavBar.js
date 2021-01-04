@@ -45,17 +45,16 @@ function NavBar() {
       </NavLink>
 
       <div className="socialMediasDiv">
-          <Link href="https://www.instagram.com/katiekikoyoga/" color="inherit">
-            <InstagramIcon />
-          </Link>
-          <Link
-            color="inherit"
-            href="https://www.facebook.com/groups/369431201045267/?ref=share"
-          >
-            <FacebookIcon />
-          </Link>
-
-        </div>
+        <Link href="https://www.instagram.com/katiekikoyoga/" color="inherit">
+          <InstagramIcon />
+        </Link>
+        <Link
+          color="inherit"
+          href="https://www.facebook.com/groups/369431201045267/?ref=share"
+        >
+          <FacebookIcon />
+        </Link>
+      </div>
     </div>
   );
 

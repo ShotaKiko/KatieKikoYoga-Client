@@ -18,7 +18,7 @@ function Classes() {
   return (
     <div className="classesContainer">
       <div className="firstRow">
-      <div className="imageDiv">
+        <div className="imageDiv">
           <LazyLoadImage
             alt="heart opener pose for restorative yoga"
             src={heartOpenerPose}
@@ -61,10 +61,6 @@ function Classes() {
           </div>
         </div>
 
-
-
-        
-
         {/* <img src={plankPose} alt="Plank Pose for beginners yoga" /> */}
       </div>
 
@@ -103,15 +99,15 @@ function Classes() {
             </Button> */}
           </div>
         </div>
-            <div className="imageDiv">
-              <LazyLoadImage
-                alt="Seated Criss Cross pose for kids yoga"
-                src={seatedPose}
-                effect="blur"
-                height={"auto"}
-                width={"100%"}
-              />
-            </div>
+        <div className="imageDiv">
+          <LazyLoadImage
+            alt="Seated Criss Cross pose for kids yoga"
+            src={seatedPose}
+            effect="blur"
+            height={"auto"}
+            width={"100%"}
+          />
+        </div>
       </div>
 
       <div className="thirdRow">
@@ -161,16 +157,16 @@ function Classes() {
       </div>
 
       <div className="fourthRow">
-      <div className="imageDiv">
-        <LazyLoadImage
-          alt="Side Angle Pose for beginners yoga"
-          src={sideAngle}
-          effect="blur"
-          height={"auto"}
-          width={"100%"}
-        />
-      </div>
-      <div className="classDescription2">
+        <div className="imageDiv">
+          <LazyLoadImage
+            alt="Side Angle Pose for beginners yoga"
+            src={sideAngle}
+            effect="blur"
+            height={"auto"}
+            width={"100%"}
+          />
+        </div>
+        <div className="classDescription2">
           <Typography gutterBottom variant="h3" component="h2">
             Beginner's Yoga
           </Typography>
@@ -203,7 +199,6 @@ function Classes() {
             </Button> */}
           </div>
         </div>
-
       </div>
 
       <div className="fifthRow">
@@ -225,9 +220,8 @@ function Classes() {
           <Typography variant="body1" component="p">
             Private Yoga Classes are customizable to the student's needs. They
             can be individual or group classes (birthday parties, girls nights,
-            etc.). The styles of yoga taught could include Hatha
-            Yoga, Vinyasa Yoga, Alignment Yoga, Restorative Yoga or Kids
-            Classes.
+            etc.). The styles of yoga taught could include Hatha Yoga, Vinyasa
+            Yoga, Alignment Yoga, Restorative Yoga or Kids Classes.
           </Typography>
 
           <div className="optionsButtons">

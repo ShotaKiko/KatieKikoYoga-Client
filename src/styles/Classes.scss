@@ -1,370 +1,381 @@
 .classesContainer {
-    // border: 2px solid red;
-    width: 70%;
-    margin: 0 auto;
-    //fade in animation
-    animation: fadeIn ease 1s;
-    -webkit-animation: fadeIn ease 1s;
-    -moz-animation: fadeIn ease 1s;
-    -o-animation: fadeIn ease 1s;
-    -ms-animation: fadeIn ease 1s;
-    @keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-        
-    @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  // border: 2px solid red;
+  width: 70%;
+  margin: 0 auto;
+  //fade in animation
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
     }
-    
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    100% {
+      opacity: 1;
     }
-    
-    @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
     }
-    
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    100% {
+      opacity: 1;
     }
+  }
 
-    img {
-        // border: 1px solid pink;
-        border: 1px solid #cccaca;
-        border-radius: 5px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
     }
-
-    .classDescription {
-        //border: 2px solid red;
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: left;
+    100% {
+      opacity: 1;
     }
+  }
 
-    .classDescription2 {
-        //border: 2px solid red;
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: right;
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
     }
-
-    .optionsButtons {
-        // border: 2px solid green;
-        display: flex;
-        justify-content: center;
-        padding-top: 20px;
-
-        a {
-            text-decoration: none;
-            color: #265d0c;
-        }
+    100% {
+      opacity: 1;
     }
+  }
 
-    .firstRow {
-        //border: 2px solid blue;
-        margin-top: 12vh;
-        display: flex;
-        justify-content: space-evenly;
-        border-bottom: 1px solid #cccaca;
-        padding-bottom: 100px;
-        width: 100%;
-
-        .imageDiv {
-            //border: 3px solid dodgerblue;
-            width: 50%;
-        }
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
     }
-    .secondRow {
-        // border: 2px solid blue;
-        margin-top: 22vh;
-        display: flex;
-        justify-content: space-around;
-        border-bottom: 1px solid #cccaca;
-        padding-bottom: 100px;
-
-        .imageDiv {
-            //border: 3px solid dodgerblue;
-            width: 50%;
-        }
+    100% {
+      opacity: 1;
     }
+  }
 
-    .thirdRow {
-        // border: 2px solid blue;
-        margin-top: 22vh;
-        display: flex;
-        justify-content: space-around;
-        border-bottom: 1px solid #cccaca;
-        padding-bottom: 100px;
+  img {
+    // border: 1px solid pink;
+    border: 1px solid #cccaca;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 
-        .imageDiv {
-            //border: 3px solid dodgerblue;
-            width: 50%;
-        }
+  .classDescription {
+    //border: 2px solid red;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .classDescription2 {
+    //border: 2px solid red;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+  }
+
+  .optionsButtons {
+    // border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+    a {
+      text-decoration: none;
+      color: #265d0c;
     }
+  }
 
-    .fourthRow {
-        // border: 2px solid blue;
-        margin-top: 22vh;
-        display: flex;
-        justify-content: space-around;
-        padding-bottom: 100px;
-        border-bottom: 1px solid #cccaca;
+  .firstRow {
+    //border: 2px solid blue;
+    margin-top: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #cccaca;
+    padding-bottom: 100px;
+    width: 100%;
 
-        .imageDiv {
-            //border: 3px solid dodgerblue;
-            width: 50%;
-        }
+    .imageDiv {
+      //border: 3px solid dodgerblue;
+      width: 50%;
     }
+  }
+  .secondRow {
+    // border: 2px solid blue;
+    margin-top: 22vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #cccaca;
+    padding-bottom: 100px;
 
-    .fifthRow {
-        // border: 2px solid blue;
-        margin-top: 22vh;
-        margin-bottom: 10vh;
-        display: flex;
-        justify-content: space-around;
-
-        .imageDiv {
-            //border: 3px solid dodgerblue;
-            width: 50%;
-        }
+    .imageDiv {
+      //border: 3px solid dodgerblue;
+      width: 50%;
     }
+  }
+
+  .thirdRow {
+    // border: 2px solid blue;
+    margin-top: 22vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #cccaca;
+    padding-bottom: 100px;
+
+    .imageDiv {
+      //border: 3px solid dodgerblue;
+      width: 50%;
+    }
+  }
+
+  .fourthRow {
+    // border: 2px solid blue;
+    margin-top: 22vh;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #cccaca;
+
+    .imageDiv {
+      //border: 3px solid dodgerblue;
+      width: 50%;
+    }
+  }
+
+  .fifthRow {
+    // border: 2px solid blue;
+    margin-top: 22vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-around;
+
+    .imageDiv {
+      //border: 3px solid dodgerblue;
+      width: 50%;
+    }
+  }
 }
-
 
 //Tablet Styling
 @media screen and (max-width: 1225px) {
+  .classesContainer {
+    width: 80%;
+    margin-top: 7vh;
+    .firstRow {
+      flex-direction: column;
+      margin-top: 4vh;
+      padding-bottom: 5vh;
+
+      .classDescription {
+        width: 100%;
+        margin-top: 2vh;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .imageDiv {
+        //border: 3px solid dodgerblue;
+        width: 100%;
+      }
+    }
+
+    .secondRow {
+      flex-direction: column-reverse;
+      margin-top: 4vh;
+      padding-bottom: 5vh;
+
+      .classDescription2 {
+        width: 100%;
+        margin-top: 2vh;
+        text-align: left;
+      }
+
+      .imageDiv {
+        //border: 3px solid dodgerblue;
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .thirdRow {
+      flex-direction: column-reverse;
+      margin-top: 4vh;
+      padding-bottom: 5vh;
+
+      .classDescription {
+        width: 100%;
+        margin-top: 2vh;
+      }
+
+      .imageDiv {
+        //border: 3px solid dodgerblue;
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .fourthRow {
+      flex-direction: column;
+      margin-top: 4vh;
+      padding-bottom: 5vh;
+
+      .classDescription2 {
+        width: 100%;
+        margin-top: 2vh;
+        text-align: left;
+      }
+
+      .imageDiv {
+        //border: 3px solid dodgerblue;
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .fifthRow {
+      flex-direction: column-reverse;
+      margin-top: 4vh;
+      padding-bottom: 5vh;
+      margin-bottom: 5vh;
+
+      .classDescription {
+        width: 100%;
+        margin-top: 2vh;
+      }
+
+      .imageDiv {
+        //border: 3px solid dodgerblue;
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  //Mobile Styling
+  @media screen and (max-width: 600px) {
     .classesContainer {
-        width: 80%;
-        margin-top: 7vh;
-        .firstRow {
-            flex-direction: column;
-            margin-top: 4vh;
-            padding-bottom: 5vh;
+      width: 90%;
 
-            .classDescription {
-                width: 100%;
-                margin-top: 2vh;
-            }
+      .firstRow {
+        flex-direction: column;
+        margin-top: 2vh;
+        padding-bottom: 5vh;
 
-            img {
-                width: 100%;
-            }
-            
-            .imageDiv {
-                //border: 3px solid dodgerblue;
-                width: 100%;
-            }
+        .classDescription {
+          width: 100%;
+          margin-top: 2vh;
         }
 
-        .secondRow {
-            flex-direction: column-reverse;
-            margin-top: 4vh;
-            padding-bottom: 5vh;
-            
-
-            .classDescription2 {
-                width: 100%;
-                margin-top: 2vh;
-                text-align: left;
-            }
-            
-            
-            .imageDiv {
-                //border: 3px solid dodgerblue;
-                width: 100%;
-            }
-            
-            img {
-                width: 100%;
-            }
-        }
-        
-        .thirdRow {
-            flex-direction: column-reverse;
-            margin-top: 4vh;
-            padding-bottom: 5vh;
-            
-
-            .classDescription {
-                width: 100%;
-                margin-top: 2vh;
-            }
-            
-            .imageDiv {
-                //border: 3px solid dodgerblue;
-                width: 100%;
-            }
-            
-            img {
-                width: 100%;
-            }
+        img {
+          width: 100%;
         }
 
-        .fourthRow {
-            flex-direction: column;
-            margin-top: 4vh;
-            padding-bottom: 5vh;
+        .imageDiv {
+          //border: 3px solid dodgerblue;
+          width: 100%;
+        }
+      }
 
-            
-            .classDescription2 {
-                width: 100%;
-                margin-top: 2vh;
-                text-align: left;
-            }
+      .secondRow {
+        flex-direction: column-reverse;
+        margin-top: 4vh;
+        padding-bottom: 5vh;
 
-            .imageDiv {
-                //border: 3px solid dodgerblue;
-                width: 100%;
-            }
-            
-            img {
-                width: 100%;
-            }
+        .classDescription2 {
+          width: 100%;
+          margin-top: 2vh;
+          text-align: left;
         }
 
-        .fifthRow {
-            flex-direction: column-reverse;
-            margin-top: 4vh;
-            padding-bottom: 5vh;
-            margin-bottom: 5vh;
-
-            .classDescription {
-                width: 100%;
-                margin-top: 2vh;
-            }
-            
-            .imageDiv {
-                //border: 3px solid dodgerblue;
-                width: 100%;
-            }
-
-            img {
-                width: 100%;
-            }
+        .imageDiv {
+          //border: 3px solid dodgerblue;
+          width: 100%;
         }
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .thirdRow {
+        flex-direction: column-reverse;
+        margin-top: 4vh;
+        padding-bottom: 5vh;
+
+        .classDescription {
+          width: 100%;
+          margin-top: 2vh;
+        }
+
+        .imageDiv {
+          //border: 3px solid dodgerblue;
+          width: 100%;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .fourthRow {
+        flex-direction: column;
+        margin-top: 4vh;
+        padding-bottom: 5vh;
+
+        .classDescription2 {
+          width: 100%;
+          margin-top: 2vh;
+          text-align: left;
+        }
+
+        .imageDiv {
+          //border: 3px solid dodgerblue;
+          width: 100%;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .fifthRow {
+        flex-direction: column-reverse;
+        margin-top: 4vh;
+        padding-bottom: 5vh;
+        margin-bottom: 5vh;
+
+        .classDescription {
+          width: 100%;
+          margin-top: 2vh;
+        }
+
+        .imageDiv {
+          //border: 3px solid dodgerblue;
+          width: 100%;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
     }
-    
-    //Mobile Styling
-    @media screen and (max-width: 600px) {
-        .classesContainer {
-            width: 90%;
-    
-            .firstRow {
-                flex-direction: column;
-                margin-top: 2vh;
-                padding-bottom: 5vh;
-    
-                .classDescription {
-                    width: 100%;
-                    margin-top: 2vh;
-                }
-    
-                img {
-                    width: 100%;
-                }
-    
-                .imageDiv {
-                    //border: 3px solid dodgerblue;
-                    width: 100%;
-                }
-            }
-    
-            .secondRow {
-                flex-direction: column-reverse;
-                margin-top: 4vh;
-                padding-bottom: 5vh;
-    
-    
-                .classDescription2 {
-                    width: 100%;
-                    margin-top: 2vh;
-                    text-align: left;
-                }
-                
-    
-                .imageDiv {
-                    //border: 3px solid dodgerblue;
-                    width: 100%;
-                }
-    
-                img {
-                    width: 100%;
-                }
-            }
-    
-            .thirdRow {
-                flex-direction: column-reverse;
-                margin-top: 4vh;
-                padding-bottom: 5vh;
-    
-    
-                .classDescription {
-                    width: 100%;
-                    margin-top: 2vh;
-                }
-    
-                .imageDiv {
-                    //border: 3px solid dodgerblue;
-                    width: 100%;
-                }
-    
-                img {
-                    width: 100%;
-                }
-            }
-    
-            .fourthRow {
-                flex-direction: column;
-                margin-top: 4vh;
-                padding-bottom: 5vh;
-    
-    
-                .classDescription2 {
-                    width: 100%;
-                    margin-top: 2vh;
-                    text-align: left;
-                }
-    
-                .imageDiv {
-                    //border: 3px solid dodgerblue;
-                    width: 100%;
-                }
-    
-                img {
-                    width: 100%;
-                }
-            }
-    
-            .fifthRow {
-                flex-direction: column-reverse;
-                margin-top: 4vh;
-                padding-bottom: 5vh;
-                margin-bottom: 5vh;
-    
-                .classDescription {
-                    width: 100%;
-                    margin-top: 2vh;
-                }
-    
-                .imageDiv {
-                    //border: 3px solid dodgerblue;
-                    width: 100%;
-                }
-    
-                img {
-                    width: 100%;
-                }
-            }
-        }
-    }
+  }
 }

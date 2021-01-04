@@ -1,165 +1,180 @@
 .landingContainer {
-    // border: 2px solid red;
-    width: 100%;
+  // border: 2px solid red;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10vh;
+  //fade in animation
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .contentContainer {
+    // border: 2px solid orange;
+    width: 70%;
     margin: 0 auto;
-    margin-top: 10vh;
-    //fade in animation
-    animation: fadeIn ease 1s;
-    -webkit-animation: fadeIn ease 1s;
-    -moz-animation: fadeIn ease 1s;
-    -o-animation: fadeIn ease 1s;
-    -ms-animation: fadeIn ease 1s;
-    @keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:1;}
-        }
-        
-    @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+
+    .contentTextDiv {
+      font-family: "Roboto";
+      width: 30%;
+      margin: 20px auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      span {
+        font-weight: bold;
+      }
     }
 
+    .logoDiv {
+      // border: 2px solid purple;
+      width: 100%;
 
-    .contentContainer {
-        // border: 2px solid orange;
-        width: 70%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        background-color: whitesmoke;
-
-        .contentTextDiv {
-            font-family: 'Roboto';
-            width: 30%;
-            margin: 20px auto;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-            span {
-                font-weight: bold;
-            }
-        }
-
-        .logoDiv {
-            // border: 2px solid purple;
-            width: 100%;
-
-            img {
-                //border: 2px solid green;
-                max-width: 200px;
-                max-height: 200px;
-
-            }
-        }
-    
-        .imageDiv{
-            // border: 2px solid green;
-            width: 50%;
-            
-            img {
-                width: 100%;
-                height: auto;
-                border-radius: 5px;
-            }
-        }
+      img {
+        //border: 2px solid green;
+        max-width: 200px;
+        max-height: 200px;
+      }
     }
+
+    .imageDiv {
+      // border: 2px solid green;
+      width: 50%;
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+    }
+  }
 }
 
-
-
 //Smaller Desktop Responsiveness
-@media screen and (max-width:1400px) {
-    .landingContainer {
-        //border: 2px solid red;
-        margin: 0 auto;
+@media screen and (max-width: 1400px) {
+  .landingContainer {
+    //border: 2px solid red;
+    margin: 0 auto;
 
-        .contentContainer {
-            //border: 1px solid green;
-            flex-direction: column-reverse;
-            width: 80%;
-            margin: 0 auto;
-            margin-top: 10vh;
+    .contentContainer {
+      //border: 1px solid green;
+      flex-direction: column-reverse;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10vh;
 
-            .contentTextDiv {
-                //border: 1px solid blue;
-                width: 80%;
-            }
-    
-            .imageDiv {
-                //border: 1px solid purple;
-                width: 100%;
-                height: fit-content;
-                display: flex;
-                justify-content: center;
-            }
-        }
+      .contentTextDiv {
+        //border: 1px solid blue;
+        width: 80%;
+      }
+
+      .imageDiv {
+        //border: 1px solid purple;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+      }
     }
+  }
 }
 
 //Tablet Responsiveness
-@media screen and (max-width:900px) {
-    .landingContainer {
-        // border: 2px solid red;
-        
-        .contentContainer {
-            // border: 1px solid green;
-            width: 90%;
+@media screen and (max-width: 900px) {
+  .landingContainer {
+    // border: 2px solid red;
 
-            .contentTextDiv {
-                // border: 1px solid blue;
-                width: 40%;
-            }
-    
-            .imageDiv {
-                // border: 1px solid purple;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+    .contentContainer {
+      // border: 1px solid green;
+      width: 90%;
 
-            }
-        }
+      .contentTextDiv {
+        // border: 1px solid blue;
+        width: 40%;
+      }
+
+      .imageDiv {
+        // border: 1px solid purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
+  }
 }
 
 //Mobile Styling
 @media screen and (max-width: 800px) {
-    .landingContainer {
-        //border: 2px solid red;
-        margin: 0 auto;
+  .landingContainer {
+    //border: 2px solid red;
+    margin: 0 auto;
 
-        .contentContainer {
-            //border: 1px solid green;
-            flex-direction: column-reverse;
-            width: 90%;
-            margin: 0 auto;
+    .contentContainer {
+      //border: 1px solid green;
+      flex-direction: column-reverse;
+      width: 90%;
+      margin: 0 auto;
 
-            .contentTextDiv {
-                //border: 1px solid blue;
-                width: 90%;
-            }
-    
-            .imageDiv {
-                //border: 1px solid purple;
-                width: 100%;
-                height: fit-content;
-            }
-        }
+      .contentTextDiv {
+        //border: 1px solid blue;
+        width: 90%;
+      }
+
+      .imageDiv {
+        //border: 1px solid purple;
+        width: 100%;
+        height: fit-content;
+      }
     }
+  }
 }
