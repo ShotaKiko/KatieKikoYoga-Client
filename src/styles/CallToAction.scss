@@ -1,8 +1,11 @@
 .callToActionContainer {
   //border: 1px solid red;
   display: flex;
+  padding:5px;
   flex-direction: column;
+  align-content: center;
   margin-top: 2vh;
+  
 
   .callToActionLinks {
     color: black;
