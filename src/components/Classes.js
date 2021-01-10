@@ -84,7 +84,7 @@ function Classes() {
           <Typography variant="body1" component="p">
             In Child’s Yoga class we focus on the <span>mindFUNness</span>.
             We’ll focus not only on calming strategies for our minds but story
-            based exercises that many yoga fun for any age! Time flies by while
+            based exercises that make yoga fun for any age! Time flies by while
             we exercise our minds and muscles!
           </Typography>
 
