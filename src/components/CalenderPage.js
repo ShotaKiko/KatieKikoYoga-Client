@@ -35,6 +35,16 @@ function CalenderPage() {
     { title: "Beginner's Yoga Class", start: "2021-02-17T19:00:00" },
     { title: "Beginner's Yoga", date: "2021-02-24" },
     { title: "Beginner's Yoga Class", start: "2021-02-24T19:00:00" },
+    { title: "Beginner's Yoga", date: "2021-03-03" },
+    { title: "Beginner's Yoga Class", start: "2021-03-03T19:00:00" },
+    { title: "Beginner's Yoga", date: "2021-03-10" },
+    { title: "Beginner's Yoga Class", start: "2021-03-10T19:00:00" },
+    { title: "Beginner's Yoga", date: "2021-03-17" },
+    { title: "Beginner's Yoga Class", start: "2021-03-17T19:00:00" },
+    { title: "Beginner's Yoga", date: "2021-03-24" },
+    { title: "Beginner's Yoga Class", start: "2021-03-24T19:00:00" },
+    { title: "Beginner's Yoga", date: "2021-03-31" },
+    { title: "Beginner's Yoga Class", start: "2021-03-31T19:00:00" },
 
     //Restorative Yoga
     { title: "Restorative Yoga", date: "2021-01-07" },
@@ -53,6 +63,14 @@ function CalenderPage() {
     { title: "Restorative Yoga Class", start: "2021-02-18T19:00:00" },
     { title: "Restorative Yoga", date: "2021-02-25" },
     { title: "Restorative Yoga Class", start: "2021-02-25T19:00:00" },
+    { title: "Restorative Yoga", date: "2021-03-04" },
+    { title: "Restorative Yoga Class", start: "2021-03-04T19:00:00" },
+    { title: "Restorative Yoga", date: "2021-03-11" },
+    { title: "Restorative Yoga Class", start: "2021-03-11T19:00:00" },
+    { title: "Restorative Yoga", date: "2021-03-18" },
+    { title: "Restorative Yoga Class", start: "2021-03-18T19:00:00" },
+    { title: "Restorative Yoga", date: "2021-03-25" },
+    { title: "Restorative Yoga Class", start: "2021-03-25T19:00:00" },
 
     //Advanced Yoga
     { title: "Advanced Yoga", date: "2021-01-02" },
@@ -73,6 +91,14 @@ function CalenderPage() {
     { title: "Advanced Yoga Class", start: "2021-02-20T09:00:00" },
     { title: "Advanced Yoga", date: "2021-02-27" },
     { title: "Advanced Yoga Class", start: "2021-02-27T09:00:00" },
+    { title: "Advanced Yoga", date: "2021-03-06" },
+    { title: "Advanced Yoga Class", start: "2021-03-06T09:00:00" },
+    { title: "Advanced Yoga", date: "2021-03-13" },
+    { title: "Advanced Yoga Class", start: "2021-03-13T09:00:00" },
+    { title: "Advanced Yoga", date: "2021-03-20" },
+    { title: "Advanced Yoga Class", start: "2021-03-20T09:00:00" },
+    { title: "Advanced Yoga", date: "2021-03-27" },
+    { title: "Advanced Yoga Class", start: "2021-03-27T09:00:00" },
 
     //Kids Yoga
     { title: "Kid's Yoga", date: "2021-01-03" },
@@ -93,6 +119,15 @@ function CalenderPage() {
     { title: "Kid's Yoga Class", start: "2021-02-21T16:00:00" },
     { title: "Kid's Yoga", date: "2021-02-28" },
     { title: "Kid's Yoga Class", start: "2021-02-28T16:00:00" },
+    { title: "Kid's Yoga", date: "2021-03-07" },
+    { title: "Kid's Yoga Class", start: "2021-03-07T16:00:00" },
+    { title: "Kid's Yoga", date: "2021-03-14" },
+    { title: "Kid's Yoga Class", start: "2021-03-14T16:00:00" },
+    { title: "Kid's Yoga", date: "2021-03-21" },
+    { title: "Kid's Yoga Class", start: "2021-03-21T16:00:00" },
+    { title: "Kid's Yoga", date: "2021-03-28" },
+    { title: "Kid's Yoga Class", start: "2021-03-28T16:00:00" },
+    
   ];
   return (
     <div className="calenderContainer">
